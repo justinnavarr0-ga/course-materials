@@ -138,7 +138,7 @@ deliverable was assigned.
     /resources
     /unit-1
       /week-1
-          /d1-dev-environment-and-js-functions
+          /d1-dev-environment-and-js-fundamentals
             /01-topic
             /02-topic
             /03-topic
