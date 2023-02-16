@@ -8,3 +8,11 @@ env/
 venv/
 ENV/
 env.bak/
+
+.vscode
+
+week-2
+week-3
+unit-2
+unit-3
+unit-4
