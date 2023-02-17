@@ -63,6 +63,7 @@
 | Lab | [Installfest](./Unit_1/01-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/05-programming/5.2-connect-four-code-along.md) |
 | Homework | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md) | Lab Completion | [Tic Tac Toe Homework](/Unit_1/05-programming/5.3-tic-tac-toe-weekend.md) |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
+| Zoom Recordings | | | | | |
 
 
 | Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
@@ -71,6 +72,7 @@
 | Lab | [CSS Flexbox/Grid Lab](/Unit_1/06-css-layout/6.1.1-flexbox-grid-lab.md) | [Callbacks Lab](/Unit_1/07-js-continued/7.2.1-js-callbacks-lab.md) | [Array Iterator Methods Lab](/Unit_1/07-js-continued/7.4.1-array-iterator-methods-lab.md) | [Intro to Testing Lab](/Unit_1/10-testing/10.1.1-testing-lab/) | [Build Another Game Guide](/Unit_1/09-programming/9.2-rock-paper-scissors-codealong.md) |
 | Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/07-js-continued/7.3.1.hw.optional-js-classes-lab.md) | Lab Completion | Lab Completion | Lab Completion |
 | Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
+| Zoom Recordings | | | | | |
 
 
 | Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
