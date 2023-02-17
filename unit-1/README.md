@@ -42,18 +42,4 @@
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 | Zoom Recordings | | | | | |
 
-
-| Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
-| -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [CSS Flexbox/Grid](/Unit_1/06-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/06-css-layout/6.2-responsive-design.md) | [Arrow Functions](/Unit_1/07-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/07-js-continued/7.2-js-callback-functions.md)<br>---<br>[JS Classes](/Unit_1/07-js-continued/7.3-js-classes.md) | [Array Iterator Methods](/Unit_1/07-js-continued/7.4-array-iterator-methods.md)<br>---<br>[this](/Unit_1/07-js-continued/7.5-js-this-keyword.md) | [Intro to Testing](/Unit_1/10-testing/10.1-testing-lecture/) | [Project 1](/Unit_1/project-1/project-1-requirements.md) |
-| Lab | [CSS Flexbox/Grid Lab](/Unit_1/06-css-layout/6.1.1-flexbox-grid-lab.md) | [Callbacks Lab](/Unit_1/07-js-continued/7.2.1-js-callbacks-lab.md) | [Array Iterator Methods Lab](/Unit_1/07-js-continued/7.4.1-array-iterator-methods-lab.md) | [Intro to Testing Lab](/Unit_1/10-testing/10.1.1-testing-lab/) | [Build Another Game Guide](/Unit_1/09-programming/9.2-rock-paper-scissors-codealong.md) |
-| Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/07-js-continued/7.3.1.hw.optional-js-classes-lab.md) | Lab Completion | Lab Completion | Lab Completion |
-| Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
-| Zoom Recordings | | | | | |
-
-
-| Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
-| -- | -- | -- | -- | -- | -- |
-| Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
