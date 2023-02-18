@@ -114,7 +114,7 @@ For your convenience, links to the recordings of the lessons will be maintained 
 of the class repo:  
 [Links to the Recorded Lessons](./resources/recorded-lessons.md).
 
-### Link to Deliverable Schedule
+### Deliverables
 
 A Deliverable is an assignment that is required to be submitted. Although not all labs/homework are required to be
 submitted as deliverables, they are still to be completed when assigned since they provide the necessary practice for
@@ -127,8 +127,6 @@ single due date.
 
 Unless otherwise stated, no deliverable will be accepted past its due date, which is typically 2 - 3 days from when the
 deliverable was assigned.
-
-[Schedule](https://docs.google.com/spreadsheets/d/1A6XsYgKkETMXqiQHWzbOsI2p3HjG6U0LJpcn-MJSPNE/)
 
 ### Class Repo Structure
 
