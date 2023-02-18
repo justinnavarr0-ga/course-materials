@@ -156,7 +156,7 @@ known as a **fork**. To get this fork do the following:
 1. Make sure that you're logged in to your GA **Enterprise** GitHub account. If you have not signed up yet, here's the
    link to do so: [https://git.generalassemb.ly/join?source=header](https://git.generalassemb.ly/join?source=header)
 2. In another tab, browse to the GA class
-   repo:  [https://git.generalassemb.ly/SEIR-2-21-23/](https://git.generalassemb.ly/SEIR-2-21-23/)
+   repo:  [https://git.generalassemb.ly/SEIR-2-21-23/course-materials](https://git.generalassemb.ly/SEIR-2-21-23/course-materials)
 3. In the top-right corner of the page, click the `Fork` button. SEI-CC Now you will have a copy of the repo in **your**
    Enterprise GitHub account!
 
