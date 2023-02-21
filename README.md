@@ -10,9 +10,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Link to the Class Zoom Room
 - Course Curriculum
 - Instructional Team / Contact Info
-- Links to Sign Up for Instructors' Office Hours
-- Link to Recorded Lessons
-- Link to Deliverable Schedule
+- Deliverables
 - Class Repository Structure
 - Becoming Familiar With the SEI GitHub Workflow
 - Daily JavaScript Code Challenges
