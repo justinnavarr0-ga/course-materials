@@ -108,12 +108,6 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 | Instructional Associate | Payne Fulcher | @Payne Fulcher | payne.fulcher@generalassemb.ly |
 
 
-### Link to Recorded Lessons
-
-For your convenience, links to the recordings of the lessons will be maintained in this file in the `resources` folder
-of the class repo:  
-[Links to the Recorded Lessons](./resources/recorded-lessons.md).
-
 ### Deliverables
 
 A Deliverable is an assignment that is required to be submitted. Although not all labs/homework are required to be
