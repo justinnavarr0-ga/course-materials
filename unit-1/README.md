@@ -9,6 +9,15 @@
 | Homework | [*Homework Command Line Practice*](https://git.generalassemb.ly/SEIR-2-21-23/hw-command-line-practice/blob/main/README.md) | [*Arrays Lab*](https://git.generalassemb.ly/SEIR-2-21-23/Week1-Homework2-Arrays-Lab) | [*Objects Lab*](https://git.generalassemb.ly/SEIR-2-21-23/Week1-Homework3-Objects-Lab) | [*Tic Tac Toe Homework*](https://git.generalassemb.ly/SEIR-2-21-23/Week1-Homework4-Tic-Tac-Toe) | |
 | Zoom Recordings | [2-21 Zoom Recording](https://generalassembly.zoom.us/rec/share/p3oyxuOH10FOYy_x_5SEeuVdaAXGMa7pO6Gugshuc5oPmqLxxw0581DdSzOH69_o.2JNFPiuPGdEgLx7h) | [2-22 Zoom Recording](https://generalassembly.zoom.us/rec/share/N7N-CEddVD0FZD0nLBJxkB9-hwDhBUtA2SI1rcQljv97IJ_2ed5lROjWvz0vDybm.S8JIZhRJTCcl6F5i) | | |
 
+
+| Week 2 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
+| -- | -- | -- | -- | -- | -- |
+| Warmup | Codewars Signup | Codewars | Codewars | Codewars | Codewars |
+| Morning | Lesson: [*CSS Flexbox/Grid*](/unit-1/week-1/d1-dev-environment-and-js-fundamentals/1.1-cli-intro-main/readme.md)<br>---<br>Lesson: [*Responsive Design*](/unit-1/week-1/d1-dev-environment-and-js-fundamentals/1.3-js-intro-datatypes.md) | Lesson: [*Arrows Functions + Callback Functions*](/unit-1/week-1/d2-js-arrays-and-functions/2.1-js-arrays.md)<br>---<br>Lesson: [*JS Classes*](/unit-1/week-1/d2-js-arrays-and-functions/2.2-js-functions.md) | Lesson: [*Array Iterator Methods*](/unit-1/week-1/d2-js-arrays-and-functions/2.3-js-scope.md)<br>---<br>Lesson: [*This*](/unit-1/week-1/d3-js-objects-and-html-css/3.1-js-objects.md) | Lesson: [*jQuery*](/unit-1/week-1/d3-js-objects-and-html-css/3.2-js-template-literals.md)<br>---<br>Lesson: [*Intro to Testing*](/unit-1/week-1/d3-js-objects-and-html-css/3.3-intro-to-html.md) | [*Project 1*](/unit-1/week-1/d4-dom-and-browser-games/4.3-guide-to-building-a-browser-game.md) |
+| Afternoon | Lab: [*CSS Flexbox/Grid Lab*](/unit-1/week-1/d2-js-arrays-and-functions/2.5-js-functions-lab.md) | ***\*Outcomes\****<br>---<br> Lab: [*Callbacks Lab*](https://git.generalassemb.ly/SEIR-2-21-23/Week1-Homework3-Objects-Lab) | Lab: [*Array Iterator Methods Lab*](/unit-1/week-1/d4-dom-and-browser-games/4.4-dom-menu-lab-part-1.md) | Lab: [*Intro to Testing Lab*](/unit-1/week-1/d4-dom-and-browser-games/4.5-dom-menu-lab-part-2.md)<br>---<br>Lab: [*jQuery Lab*](/unit-1/week-1/d4-dom-and-browser-games/4.6-connect-four-code-along.md) | Lab: [*Build Another Game Guide*](/unit-1/week-1/d4-dom-and-browser-games/4.6-connect-four-code-along.md)
+| Homework | [*Flexbox Froggy*](https://flexboxfroggy.com/) | [*JS Classes Lab*](https://git.generalassemb.ly/SEIR-2-21-23/Week1-Homework2-Arrays-Lab) | Lab Completion | Lab Completion | Lab Completion |
+| Zoom Recordings | | | | |
+
 ### Unit 1 Syllabus
 
 #### Terminal, CLI, Git, & GitHub
