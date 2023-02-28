@@ -1,4 +1,4 @@
-// console.log('hello world')
+console.log('hello world')
 
 //reg func
 let squaresReg = [1, 2, 3].map(function (x) { return x * x });
@@ -18,12 +18,8 @@ const myArrowFunction = () => {
 // single expression, curly brackets optional
 const singleExpression = () => console.log('hello')
 
-// returning objects need statement block wrapped in paranthesis
+// returning objects need statement block wrapped in parenthesis
 let todos = ['Buy milk', 'Mow lawn'];
 
-let todoObjects = todos.map((todo) => (
-    console.log(todo),
-    {todo: todo, done: false}
-
-));
+let todoObjects = todos.map(todo => ({todo: todo, done: false}));
 console.log(todoObjects)
