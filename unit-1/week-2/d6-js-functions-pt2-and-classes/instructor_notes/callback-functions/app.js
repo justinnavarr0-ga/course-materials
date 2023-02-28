@@ -14,18 +14,18 @@ colors.forEach(function(color, idx) {
 });
 
 const cars = [
-    { make: 'Toyota', yrsOld: 5, mileage: 92399 },
-    { make: 'Ford', yrsOld: 12, mileage: 255005 },
-    { make: 'Ferrari', yrsOld: 9, mileage: 12966 },
-    { make: 'Subaru', yrsOld: 9, mileage: 111266 },
-    { make: 'Toyota', yrsOld: 2, mileage: 41888 },
-    { make: 'Tesla', yrsOld: 3, mileage: 57720 }
+  { make: 'Toyota', yrsOld: 5, mileage: 92399 },
+  { make: 'Ford', yrsOld: 12, mileage: 255005 },
+  { make: 'Ferrari', yrsOld: 9, mileage: 12966 },
+  { make: 'Subaru', yrsOld: 9, mileage: 111266 },
+  { make: 'Toyota', yrsOld: 2, mileage: 41888 },
+  { make: 'Tesla', yrsOld: 3, mileage: 57720 }
 ];
 
 const filterCars = (car) => {
-    if(car.mileage / car.yrsOld > 20000 ){
-        return true
-    }
+  if(car.mileage / car.yrsOld > 20000 ){
+    return true
+  }
 }
 
 const wellDrivenCars = cars.filter(filterCars)
@@ -33,13 +33,13 @@ wellDrivenCars.forEach(car => console.log(car))
 
 
 const lightSequence = [
-    {color: 'red', time: 1000},
-    {color: 'orange', time: 1000},
-    {color: 'yellow', time: 1000}
+  {color: 'red', time: 1000},
+  {color: 'orange', time: 1000},
+  {color: 'yellow', time: 1000}
 ];
   
 
-  // Cache the divs for the lights
+// Cache the divs for the lights
 const lightEls = document.querySelectorAll('main > div');
 
 
@@ -55,14 +55,12 @@ function renderLight(cb) {
   setTimeout(cb, lightSequence[curLightIdx].time);
 }
 
-
-renderLight()
 function renderLightSequence() {
-renderLight(renderLightSequence);
-// Increment and reset to zero when 3 is reached
+  renderLight(renderLightSequence);
+  // Increment and reset to zero when 3 is reached
   curLightIdx = ++curLightIdx % 3;
 }
   
-  // Make it start!
+// Make it start!
 renderLightSequence();
   
