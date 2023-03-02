@@ -119,6 +119,10 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Must lose after a certain amount of time or after X number of bad guesses.
 1. **Simon**
     - Requires audio
+1. **Quiz Game**
+    - Ask users trivia questions
+1.  **Connect Four**
+    - Sweet childhod memories
 1. **Mastermind** (Guess the Code)
 1. **Minesweeper**
     - Must implement "flood" feature
