@@ -11,13 +11,13 @@ let turn;  // 1 or -1
 let winner;  // null = no winner; 1 or -1 = winner; 'T' = Tie
 
 /*----- cached elements  -----*/
-const messageEl = document.querySelector('h1');
-const playAgainBtn = document.querySelector('button');
+const $msgEl = $('h1');
+const $playAgainBtn = $('button');
 const markerEls = [...document.querySelectorAll('#markers > div')];
 
 /*----- event listeners -----*/
-document.getElementById('markers').addEventListener('click', handleDrop);
-playAgainBtn.addEventListener('click', init);
+$('#markers').on('click','div', handleDrop);
+$playAgainBtn.on('click', init);
 
 /*----- functions -----*/
 init();
@@ -44,9 +44,9 @@ function init() {
 // state, then call render();
 function handleDrop(evt) {
   const colIdx = markerEls.indexOf(evt.target);
-  // Guards...
-  if (colIdx === -1) return;
-  // Shortcut to the column array
+  // // Guards...
+  // if (colIdx === -1) return;
+  // // Shortcut to the column array
   const colArr = board[colIdx];
   // Find the index of the first 0 in colArr
   const rowIdx = colArr.indexOf(0);
@@ -130,27 +130,27 @@ function renderBoard() {
     // Iterate over the cells in the cur column (colArr)
     colArr.forEach(function(cellVal, rowIdx) {
       const cellId = `c${colIdx}r${rowIdx}`;
-      const cellEl = document.getElementById(cellId);
-      cellEl.style.backgroundColor = COLORS[cellVal];
+      const $cellEl = $('#' + cellId);
+      $cellEl.css({backgroundColor: COLORS[cellVal]});
     });
   });
 }
 
 function renderMessage() {
   if (winner === 'T') {
-    messageEl.innerText = "It's a Tie!!!";
+    $msgEl.text = ("It's a Tie!!!");
   } else if (winner) {
-    messageEl.innerHTML = `<span style="color: ${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> Wins!`;
+    $msgEl.html(`<span style="color: ${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> Wins!`);
   } else {
     // Game is in play
-    messageEl.innerHTML = `<span style="color: ${COLORS[turn]}">${COLORS[turn].toUpperCase()}</span>'s Turn`;
+    $msgEl.html(`<span style="color: ${COLORS[turn]}">${COLORS[turn].toUpperCase()}</span>'s Turn`);
   }
 }
 
 function renderControls() {
   // Ternary expression is the go to when you want 1 of 2 values returned
   // <conditional exp> ? <truthy exp> : <falsy exp>
-  playAgainBtn.style.visibility = winner ? 'visible' : 'hidden';
+  $playAgainBtn.css('visibility', winner ? 'visible' : 'hidden');
   // Iterate over the marker elements to hide/show
   // according to the column being full (no 0's) or not
   markerEls.forEach(function(markerEl, colIdx) {
