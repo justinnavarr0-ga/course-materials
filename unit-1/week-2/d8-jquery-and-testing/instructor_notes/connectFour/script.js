@@ -131,8 +131,13 @@ function renderBoard() {
     // Iterate over the cells in the cur column (colArr)
     colArr.forEach(function (cellVal, rowIdx) {
       const cellId = `c${colIdx}r${rowIdx}`;
-      const cellEl = document.getElementById(cellId);
-      cellEl.style.backgroundColor = COLORS[cellVal];
+      // const cellEl = document.getElementById(cellId);
+
+      const $cellEl = $('#' + cellId);
+      $cellEl.css({ backgroundColor: COLORS[cellVal] })
+      // cellEl.style.backgroundColor = COLORS[cellVal];
+
+      const $cellEl = $('#' + cellId).css({ 'background-color': COLORS[cellVal] })
     });
   });
 }

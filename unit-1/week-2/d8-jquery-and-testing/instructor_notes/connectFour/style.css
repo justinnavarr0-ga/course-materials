@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+#markers {
+  background-color: pink;
+}
+
+.bty {
+  color: blue;
+}
+
 body {
   /* viewport units: vh (viewport height), vw, vmin (smallest between vh & vw) */
   height: 100vh;
@@ -31,7 +39,7 @@ h1 {
   margin-top: 1.5vmin;
 }
 
-#markers > div {
+#markers>div {
   height: 10vmin;
   border-width: 5vmin;
   border-style: solid;
@@ -39,7 +47,7 @@ h1 {
   transform: scale(0.7);
 }
 
-#markers > div:hover {
+#markers>div:hover {
   transform: scale(0.9);
   transition: transform 150ms ease-in;
   border-top-color: darkgrey;
@@ -53,7 +61,7 @@ h1 {
   margin-top: -4vmin;
 }
 
-#board > div {
+#board>div {
   border-radius: 50%;
   border: 0.1vmin solid grey;
 }
