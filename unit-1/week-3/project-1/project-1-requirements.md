@@ -126,12 +126,12 @@ You will have a maximum of 10 minutes to present your project following these gu
 <!-- 1. **Mastermind** (Guess the Code)
 1. **Minesweeper**
     - Must implement "flood" feature -->
-5. **Blackjack**
+6. **Blackjack**
     - Must implement wagering feature
     - Do not have to implement splitting hands
 <!-- 1. **Slot Machine**
     - Must implement wagering feature -->
-6. **Checkers**
+7. **Checkers**
     - No AI required - player vs. player is fine
 <!-- 1. **Mancala**
     - Implementing "capturing" is not required
