@@ -172,3 +172,11 @@ You will have a maximum of 10 minutes to present your project following these gu
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
 ---
+
+## In Order to Get Approval 
+
+- You will need to create a personal github repo for your project.  
+- Within this repo you will need a README with all of the pseudocode (code written in plain English) for your project. 
+- Please provide your game selection and link to your github repo (including README) [here](https://docs.google.com/spreadsheets/d/1CCaqxs85BQsypf8DXynVMDUEHUS5Z_G_zwnagzeojso/edit#gid=0).  
+
+---
