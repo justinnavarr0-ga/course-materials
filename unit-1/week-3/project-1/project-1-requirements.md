@@ -119,17 +119,21 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Must lose after a certain amount of time or after X number of bad guesses.
 1. **Simon**
     - Requires audio
-1. **Mastermind** (Guess the Code)
+1. **Quiz Game**
+    - Ask users trivia questions
+1.  **Connect Four**
+    - Sweet childhod memories
+<!-- 1. **Mastermind** (Guess the Code)
 1. **Minesweeper**
-    - Must implement "flood" feature
-1. **Blackjack**
+    - Must implement "flood" feature -->
+6. **Blackjack**
     - Must implement wagering feature
     - Do not have to implement splitting hands
-1. **Slot Machine**
-    - Must implement wagering feature
-1. **Checkers**
+<!-- 1. **Slot Machine**
+    - Must implement wagering feature -->
+7. **Checkers**
     - No AI required - player vs. player is fine
-1. **Mancala**
+<!-- 1. **Mancala**
     - Implementing "capturing" is not required
 1. **Roulette**
     - Must implement wagering feature
@@ -139,7 +143,7 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Must implement wagering feature
 1. **Solitaire**
 1. **Battleship**
-    - Requires some AI to implement the computer opponent
+    - Requires some AI to implement the computer opponent -->
 
 **Only the above games are approved.  Any deviation, which is extremely discouraged, must receive approval from your instructor before starting your planning (wireframes & pseudocode)!**
 
@@ -166,5 +170,13 @@ You will have a maximum of 10 minutes to present your project following these gu
 - Your instructors will endeavor to deliver your code review by EOD Monday following Friday's presentation.
 - If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
+
+---
+
+## In Order to Get Approval 
+
+- You will need to create a personal github repo for your project.  
+- Within this repo you will need a README with all of the pseudocode (code written in plain English) for your project. 
+- Please provide your game selection and link to your github repo (including README) [here](https://docs.google.com/spreadsheets/d/1CCaqxs85BQsypf8DXynVMDUEHUS5Z_G_zwnagzeojso/edit#gid=0).  
 
 ---
