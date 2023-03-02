@@ -13,12 +13,13 @@ let winner;  // null = no winner; 1 or -1 = winner; 'T' = Tie
 /*----- cached elements  -----*/
 // const messageEl = document.querySelector('h1');
 const $msgEl = $('h1')
-const playAgainBtn = document.querySelector('button');
+const $playAgainBtn = $('button');
 const markerEls = [...document.querySelectorAll('#markers > div')];
 
 /*----- event listeners -----*/
-document.getElementById('markers').addEventListener('click', handleDrop);
-playAgainBtn.addEventListener('click', init);
+// document.getElementById('markers').addEventListener('click', handleDrop);
+$('#markers').on('click', handleDrop)
+$playAgainBtn.on('click', init);
 
 /*----- functions -----*/
 init();
@@ -46,7 +47,7 @@ function init() {
 function handleDrop(evt) {
   const colIdx = markerEls.indexOf(evt.target);
   // Guards...
-  if (colIdx === -1) return;
+  // if (colIdx === -1) return;
   // Shortcut to the column array
   const colArr = board[colIdx];
   // Find the index of the first 0 in colArr
@@ -137,7 +138,7 @@ function renderBoard() {
       $cellEl.css({ backgroundColor: COLORS[cellVal] })
       // cellEl.style.backgroundColor = COLORS[cellVal];
 
-      const $cellEl = $('#' + cellId).css({ 'background-color': COLORS[cellVal] })
+      // const $cellEl = $('#' + cellId).css({ 'background-color': COLORS[cellVal] })
     });
   });
 }
@@ -156,7 +157,7 @@ function renderMessage() {
 function renderControls() {
   // Ternary expression is the go to when you want 1 of 2 values returned
   // <conditional exp> ? <truthy exp> : <falsy exp>
-  playAgainBtn.style.visibility = winner ? 'visible' : 'hidden';
+  $playAgainBtn.css('visibility', winner ? 'visible' : 'hidden');
   // Iterate over the marker elements to hide/show
   // according to the column being full (no 0's) or not
   markerEls.forEach(function (markerEl, colIdx) {
