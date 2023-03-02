@@ -11,7 +11,8 @@ let turn;  // 1 or -1
 let winner;  // null = no winner; 1 or -1 = winner; 'T' = Tie
 
 /*----- cached elements  -----*/
-const messageEl = document.querySelector('h1');
+// const messageEl = document.querySelector('h1');
+const $msgEl = $('h1')
 const playAgainBtn = document.querySelector('button');
 const markerEls = [...document.querySelectorAll('#markers > div')];
 
@@ -138,12 +139,12 @@ function renderBoard() {
 
 function renderMessage() {
   if (winner === 'T') {
-    messageEl.innerText = "It's a Tie!!!";
+    $msgEl.text("It's a Tie!!!");
   } else if (winner) {
-    messageEl.innerHTML = `<span style="color: ${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> Wins!`;
+    $msgEl.html(`<span style="color: ${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> Wins!`);
   } else {
     // Game is in play
-    messageEl.innerHTML = `<span style="color: ${COLORS[turn]}">${COLORS[turn].toUpperCase()}</span>'s Turn`;
+    $msgEl.html(`<span style="color: ${COLORS[turn]}">${COLORS[turn].toUpperCase()}</span>'s Turn`);
   }
 }
 
