@@ -126,9 +126,9 @@ function render() {
 }
 
 function renderBoard() {
-  board.forEach(function(colArr, colIdx) {
+  board.forEach(function (colArr, colIdx) {
     // Iterate over the cells in the cur column (colArr)
-    colArr.forEach(function(cellVal, rowIdx) {
+    colArr.forEach(function (cellVal, rowIdx) {
       const cellId = `c${colIdx}r${rowIdx}`;
       const cellEl = document.getElementById(cellId);
       cellEl.style.backgroundColor = COLORS[cellVal];
@@ -153,7 +153,7 @@ function renderControls() {
   playAgainBtn.style.visibility = winner ? 'visible' : 'hidden';
   // Iterate over the marker elements to hide/show
   // according to the column being full (no 0's) or not
-  markerEls.forEach(function(markerEl, colIdx) {
+  markerEls.forEach(function (markerEl, colIdx) {
     const hideMarker = !board[colIdx].includes(0) || winner;
     markerEl.style.visibility = hideMarker ? 'hidden' : 'visible';
   });
