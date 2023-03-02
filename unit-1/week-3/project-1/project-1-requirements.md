@@ -123,17 +123,17 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Ask users trivia questions
 1.  **Connect Four**
     - Sweet childhod memories
-1. **Mastermind** (Guess the Code)
+<!-- 1. **Mastermind** (Guess the Code)
 1. **Minesweeper**
-    - Must implement "flood" feature
+    - Must implement "flood" feature -->
 1. **Blackjack**
     - Must implement wagering feature
     - Do not have to implement splitting hands
-1. **Slot Machine**
-    - Must implement wagering feature
+<!-- 1. **Slot Machine**
+    - Must implement wagering feature -->
 1. **Checkers**
     - No AI required - player vs. player is fine
-1. **Mancala**
+<!-- 1. **Mancala**
     - Implementing "capturing" is not required
 1. **Roulette**
     - Must implement wagering feature
@@ -143,7 +143,7 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Must implement wagering feature
 1. **Solitaire**
 1. **Battleship**
-    - Requires some AI to implement the computer opponent
+    - Requires some AI to implement the computer opponent -->
 
 **Only the above games are approved.  Any deviation, which is extremely discouraged, must receive approval from your instructor before starting your planning (wireframes & pseudocode)!**
 
