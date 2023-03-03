@@ -120,7 +120,6 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Will need to display "wrong" guess until a timer expires or until the next click.
     - Must lose after a certain amount of time or after X number of bad guesses.
 1. **Simon**
-    - Requires audio
 <!-- 1.  **Connect Four**
     - Sweet childhod memories
 1. **Mastermind** (Guess the Code)
