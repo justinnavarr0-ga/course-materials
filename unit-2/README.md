@@ -5,7 +5,7 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to Node & NPM** | [Intro to Full Stack Development](/Unit_2/week1/d1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
+| **Intro to Node & NPM** | [Intro to Full Stack Development](unit-2/week-1/d1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
 | **Intro to Express** | [Intro to Express](./Unit_2/2-express-framework/2.1-intro-express.md) | [Express Lab](./Unit_2/2-express-framework/2.1.1-intro-express-lab.md)  | []() |
 | **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
 | **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
