@@ -57,4 +57,3 @@
 - Intro to Computer Science
 - Recursive Functions
 - Basic Sorting Algorithms
-<hr>
