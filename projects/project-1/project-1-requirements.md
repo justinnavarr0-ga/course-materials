@@ -20,17 +20,15 @@ Lastly, in addition to presenting your projects, you will be required to complet
 
 ## Planning & Presentation Requirements
 
-### Planning - Due ____________:
+### Planning - Due Start of Class 3/6:
 
 - You will share:
 
 	☐ Your choice of game.
 
-	☐ A wireframe of your "main" game screen.
-
 	☐ Pseudocode for the overall game play.
 
-### Presentation - ____________:
+### Presentation - 3/10:
 
 You will have a maximum of 10 minutes to present your project following these guidelines:
 
@@ -111,6 +109,10 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 > Note: Games are listed in approximate order of increasing difficulty.
 
+1. **Slot Machine**
+    - Must implement wagering feature
+1. **Quiz Game**
+    - Ask users trivia questions
 1. **Spaceman**
     - A good icebox feature (optional feature) is to allow the player to choose from categories of words.
 1. **Concentration (Memory Game)**
@@ -118,19 +120,14 @@ You will have a maximum of 10 minutes to present your project following these gu
     - Will need to display "wrong" guess until a timer expires or until the next click.
     - Must lose after a certain amount of time or after X number of bad guesses.
 1. **Simon**
-    - Requires audio
-1. **Quiz Game**
-    - Ask users trivia questions
-1.  **Connect Four**
+<!-- 1.  **Connect Four**
     - Sweet childhod memories
-<!-- 1. **Mastermind** (Guess the Code)
+1. **Mastermind** (Guess the Code)
 1. **Minesweeper**
     - Must implement "flood" feature -->
 6. **Blackjack**
     - Must implement wagering feature
     - Do not have to implement splitting hands
-<!-- 1. **Slot Machine**
-    - Must implement wagering feature -->
 7. **Checkers**
     - No AI required - player vs. player is fine
 <!-- 1. **Mancala**
@@ -140,9 +137,9 @@ You will have a maximum of 10 minutes to present your project following these gu
 1. **Video Poker**
     - Must implement wagering feature
 1. **Craps**
-    - Must implement wagering feature
-1. **Solitaire**
-1. **Battleship**
+    - Must implement wagering feature -->
+8. **Solitaire**
+<!-- 1. **Battleship**
     - Requires some AI to implement the computer opponent -->
 
 **Only the above games are approved.  Any deviation, which is extremely discouraged, must receive approval from your instructor before starting your planning (wireframes & pseudocode)!**
@@ -167,7 +164,6 @@ You will have a maximum of 10 minutes to present your project following these gu
 ## Project Feedback + Evaluation
 
 - Your instructors will be using the [Project 1 Code Review](./project-1-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
-- Your instructors will endeavor to deliver your code review by EOD Monday following Friday's presentation.
 - If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
