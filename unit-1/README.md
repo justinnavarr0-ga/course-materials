@@ -21,6 +21,8 @@
 
 [OPTIONAL README ZOOM RECORDING](https://generalassembly.zoom.us/rec/share/YO6GG-Ng17weq-7ixdKs0o9HQmmAg4RB7qJYj0GlJjX5fT3zW2_5igv1yIPO-jHa.eNN4YS8QfsBwNp_x) 
 
+[PROJECT PRESENTATIONS](https://generalassembly.zoom.us/rec/share/DrcrawtNpEia9TdB1RTqghOCG3WfSXT2OruxIDQ71tE3gQF8CSaxtlmCk4qm4xpM.l4vHp2HIySZvmHYA?startTime=1678471680000) 
+
 ----
 
 ### Week 3 - [*Project 1*](/projects/project-1)
