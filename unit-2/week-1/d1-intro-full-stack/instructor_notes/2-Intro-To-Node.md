@@ -113,7 +113,7 @@ However, if you had multiple stovetops and burners, you could cook multiple dish
 
 Similarly, in Node.js, instead of waiting for one input/output operation to complete before starting the next one, multiple input/output operations can be performed simultaneously. When a request comes in, Node.js doesn't block and wait for that request to finish processing before handling the next one. Instead, it can handle multiple requests at the same time, switching back and forth between them as needed.
 
-This approach allows Node.js to efficiently handle many concurrent connections without wasting resources or causing unnecessary delays.
+`This approach allows Node.js to efficiently handle many concurrent connections without wasting resources or causing unnecessary delays.`
 
 ## The different between L1 and L2 cache
 L1 and L2 are the first and second cache in the hierarchy of cache levels. L1 has a smaller memory capacity than L2. Also, L1 can be accessed faster than L2. L1 is usually in-built to the chip, while L2 is soldered on the motherboard very close to the chip.
@@ -262,7 +262,7 @@ module.exports = {
 const btyOne = require("./onceTest.js");
 const btyTwo = require("./onceTest.js");
 
-console.log(btyOne.message); // Output: "Hello from onceTest.js file!!!"
+console.log(btyOne.message); // Output: "This code runs only once when the module is required" "Hello from onceTest.js file!!!"
 console.log(btyTwo.message); // Output: ""Hello from onceTest.js file!!!"
 ```
 
