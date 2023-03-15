@@ -4,12 +4,9 @@ var router = express.Router();
  var todosCtrl = require('../controllers/todos');
 
  // All actual paths start with "localhost:3000/todos"
- 
  router.get('/', todosCtrl.index);
- //get /todos/new
  router.get('/new', todosCtrl.new)
  router.get('/:id', todosCtrl.show)
- // post /todos
  router.post('/', todosCtrl.create)
 
 module.exports = router;

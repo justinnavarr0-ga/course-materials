@@ -9,6 +9,7 @@
 </head>
 <body>
   <h1>To-Dos as of <%= time %></h1>
+
   <ul>
     <a href="/todos/new">Add To-Do</a>
     <% todos.forEach(function(t) { %>
@@ -17,6 +18,10 @@
     
           - 
         <%= t.done ? 'done' : 'not done' %>
+        <form action="/todos/<%= t.id %>?_method=DELETE"
+          class="delete-form" method="POST">
+          <button type="submit">X</button>
+        </form>
       </li>
     <% }); %>
   </ul>

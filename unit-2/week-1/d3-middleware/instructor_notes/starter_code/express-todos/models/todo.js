@@ -19,10 +19,10 @@ function getOne(id){
   return todos.find(todo => todo.id === id)
 }
 
-function create(todo) {
-  // Add the id
-  todo.id = Date.now() % 1000000;
-  // New todos wouldn't be done :)
-  todo.done = false;
-  todos.push(todo);
+function create(todo){
+  todo.id = Date.now() % 10000000
+  todo.done = false
+  todos.push(todo)
 }
+
+

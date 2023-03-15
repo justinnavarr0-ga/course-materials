@@ -11,8 +11,8 @@ function show(req, res) {
   });
 }
 
-function newTodo(req, res) {
-  res.render('todos/new', { title: 'New Todo' });
+function newTodo(req, res){
+  res.render('todos/new', {titile: 'New Todo'})
 }
 
 function create(req, res){
