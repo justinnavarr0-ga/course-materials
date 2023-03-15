@@ -8,5 +8,8 @@ var router = express.Router();
  router.get('/new', todosCtrl.new)
  router.get('/:id', todosCtrl.show)
  router.post('/', todosCtrl.create)
+ // delete /todos/:id
+//  router.get('/:id/:name/:number', todosCtrl.name)
+ router.delete('/:id', todosCtrl.delete)
 
 module.exports = router;

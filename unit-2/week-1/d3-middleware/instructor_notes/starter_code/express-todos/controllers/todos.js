@@ -21,10 +21,20 @@ function create(req, res){
   res.redirect('/todos')
 }
 
+function deleteTodo(req, res){
+  Todo.deleteOne(req.params.id)
+  res.redirect('/todos')
+}
+
+// function name(req, res){
+//   console.log(req.params)
+// }
+
 
 module.exports = {
   index,
   show,
   new: newTodo,
-  create
+  create,
+  delete: deleteTodo
 };
