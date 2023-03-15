@@ -1,7 +1,7 @@
 const todos = [
-  {id: 125223, todo: 'Feed Dogs', done: true},
-  {id: 127904, todo: 'Learn Express', done: false},
-  {id: 139608, todo: 'Buy Milk', done: false}
+  { id: 125223, todo: 'Feed Dogs', done: true },
+  { id: 127904, todo: 'Learn Express', done: false },
+  { id: 139608, todo: 'Buy Milk', done: false }
 ];
 
 module.exports = {
@@ -15,12 +15,12 @@ function getAll() {
   return todos;
 }
 
-function getOne(id){
+function getOne(id) {
   id = parseInt(id)
   return todos.find(todo => todo.id === id)
 }
 
-function create(todo){
+function create(todo) {
   todo.id = Date.now() % 10000000
   todo.done = false
   todos.push(todo)
