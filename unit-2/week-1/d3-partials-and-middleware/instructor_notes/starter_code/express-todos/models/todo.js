@@ -6,7 +6,8 @@ const todos = [
 
 module.exports = {
   getAll,
-  getOne
+  getOne,
+  create
 };
 
 function getAll() {
@@ -16,4 +17,12 @@ function getAll() {
 function getOne(id){
   id = parseInt(id)
   return todos.find(todo => todo.id === id)
+}
+
+function create(todo) {
+  // Add the id
+  todo.id = Date.now() % 1000000;
+  // New todos wouldn't be done :)
+  todo.done = false;
+  todos.push(todo);
 }

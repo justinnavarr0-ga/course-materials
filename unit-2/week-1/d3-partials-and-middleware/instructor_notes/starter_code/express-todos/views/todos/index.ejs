@@ -8,8 +8,9 @@
   <title>Express To-Do</title>
 </head>
 <body>
-  <h1>Todos</h1>
+  <h1>To-Dos as of <%= time %></h1>
   <ul>
+    <a href="/todos/new">Add To-Do</a>
     <% todos.forEach(function(t) { %>
       <li>
         <a href="/todos/<%= t.id %>"><%= t.todo %></a>
