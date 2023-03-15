@@ -8,8 +8,21 @@ module.exports = {
   getAll,
   getOne,
   create,
-  deleteOne
+  deleteOne,
+  update
 };
+
+// What parameters do we need? 
+function update(id, updatedTodo) {
+  // This code is going to look something similar to models/todo.js getOne function.
+  // convert a string to an integer
+  id = parseInt(id);
+  const todo = todos.find(todo => todo.id === id);
+  // The below code will work. Let's test it out in the browser...
+  // todo.todo = updatedTodo.todo;
+  Object.assign(todo, updatedTodo);
+
+}
 
 function getAll() {
   return todos;
