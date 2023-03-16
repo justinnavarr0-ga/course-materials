@@ -91,7 +91,10 @@ const teamStructure = {
       // Not sure how many teams Eric has...
       teams: [{
         name: 'Phil Knight',
-        teams: []
+        teams: [],
+        directReports: [],
+        age: 60,
+        height: 188,
       }],
     },
     {
