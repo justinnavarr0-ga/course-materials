@@ -1,0 +1,12 @@
+<body>
+  <form action="/todos/<%= todo.id %>?_method=PUT" method="POST" autocomplete="off">
+    <input type="text" name="todo" value="<%= todo.todo %>">
+    <br>
+    <!-- the name="done" to match the property in the models/todos.js -->
+    <label>
+      <input type="checkbox" name="done" <%=todo.done ? 'checked' : '' %>>
+      Completed?
+    </label>
+    <button type="submit">UPDATE To-Do </button>
+  </form>
+</body>
