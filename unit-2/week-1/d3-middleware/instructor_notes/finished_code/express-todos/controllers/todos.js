@@ -35,7 +35,8 @@ function edit(req, res) {
 }
 
 function update(req, res) {
-  req.body.done = !!req.body.done
+  // req.body.done = !!req.body.done
+  console.log("This HERE is req.body.done", req.body.done)
   // update below has NOT been created yet. 
   // needs an id and then the updated data
   // We used req.body when we create the data
