@@ -1,0 +1,12 @@
+<%- include('../partials/header') %>
+
+  <h3>
+    <%= todo.todo %>
+  </h3>
+  <h3>Complete: <%= todo.done ? 'Yes' : 'No' %>
+  </h3>
+  <!-- Step 1: Identify the proper route -->
+
+  <a href="/todos/<%= todo.id %>/edit">Edit To-Do</a>
+
+<%- include('../partials/footer') %>

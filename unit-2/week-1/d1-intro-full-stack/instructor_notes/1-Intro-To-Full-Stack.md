@@ -38,7 +38,7 @@ HTTP can be thought of as a postal service for the internet. Just as postal serv
 
 In this analogy, the web browser is like the sender of a letter, and the web server is like the recipient. The HTTP request is like the letter, which contains the message or data that the sender wants to send to the recipient. The HTTP response is like the reply from the recipient, which contains the requested data or an error message if something went wrong.
 
-Just as postal services have specific procedures and guidelines for sending and receiving mail, HTTP has its own set of rules and standards that ensure the secure and reliable transfer of data over the internet.
+Just as postal services have specific procedures and guidelines for sending and receiving mail, `HTTP has its own set of rules and standards that ensure the secure and reliable transfer of data over the internet`.
 
 [What are the rules for this HTTP package I'm sending?](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
@@ -51,7 +51,7 @@ Just as postal services have specific procedures and guidelines for sending and 
 
 There ya go. We just made an HTTP Request. 
 
-`Response headers` and `request headers` are necessary to make an HTTP request because they provide important metadata and context to both the client and server, which helps to ensure a reliable and secure data transfer process.
+`Response headers` and `request headers` are necessary to make an HTTP request because they provide important metadata and context to both the client and server, `which helps to ensure a reliable and secure data transfer process`.
 
 ## 7. Anatomy of HTTP Request/Response Messages
 
@@ -97,6 +97,8 @@ The two key components of any HTTP request are:
 In summary, `PUT` is used to **completely** replace or create a resource, while `PATCH` is used to partially modify an existing resource.
 - `DELETE`
 
+Create Read Update Delete = CRUD
+
 #### ❓ Quiz Time: Match up CRUD with HTTP Methods.
 
 ## 10. URLs
@@ -122,7 +124,7 @@ For example, if a client sends an HTTP request to a server to retrieve some data
 
 The server code that runs in response to an HTTP request is typically written in a server-side programming language such as PHP, Python, or Node.js. This code can access various resources and perform various operations on the server, such as interacting with databases, sending emails, or generating HTML pages.
 
-In summary, when an HTTP request is received by a server, it triggers the execution of server-side code, which can perform various operations and generate a response to send back to the client.
+*In summary, when an HTTP request is received by a server, it triggers the execution of server-side code, which can perform various operations and generate a response to send back to the client.*
 
 [An Overview of HTTP MDN DOCS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
@@ -148,6 +150,7 @@ In summary, when an HTTP request is received by a server, it triggers the execut
 ## 13. ❓ Essential Questions
 
 1.  ❓❓❓ Huh??? Let me frame this one for y'all.
+2. CRUD CREATE READ UPDATE DELETE... HTTP METHODS!! GET POST PUT DELETE
 
 - In networking, a communications protocol or network protocol is the specification of a set of rules for a particular type of communication.
 
