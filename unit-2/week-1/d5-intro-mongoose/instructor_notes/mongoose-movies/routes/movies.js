@@ -9,4 +9,9 @@ var moviesCtrl = require('../controllers/movies')
 // /movies is already taken care of in server.js
 router.get('/new', moviesCtrl.new)
 
+// POST /movies
+// localhost:3000/movies
+router.post('/', moviesCtrl.create)
+
+
 module.exports = router;
