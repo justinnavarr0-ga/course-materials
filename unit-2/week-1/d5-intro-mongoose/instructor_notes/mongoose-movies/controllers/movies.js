@@ -2,7 +2,18 @@ const Movie = require('../models/movie')
 
 module.exports = {
   new: newMovie,
-  create
+  create,
+  index
+}
+
+async function index(req, res) {
+  try {
+    const movies = await Movie.find({});
+    res.render('movies/index', { movies });
+  } catch (err) {
+    console.log(err);
+    res.sendStatus(500);
+  }
 }
 
 function newMovie(req, res) {
@@ -23,8 +34,11 @@ async function create(req, res) {
     await movie.save();
 
     // for now, redirect right back to new.ejs
-    res.redirect('/movies/new');
+    res.redirect('/movies/index');
   } catch (err) {
     res.redirect('/movies/new');
   }
 }
+
+
+

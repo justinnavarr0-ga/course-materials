@@ -13,5 +13,8 @@ router.get('/new', moviesCtrl.new)
 // localhost:3000/movies
 router.post('/', moviesCtrl.create)
 
+// GET	/movies	Read all movies
+router.get('/', moviesCtrl.index)
+
 
 module.exports = router;
