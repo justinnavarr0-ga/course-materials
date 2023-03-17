@@ -30,11 +30,16 @@ async function create(req, res) {
     // split cast into an array if it's not an empty string - using a regular expression as a separator
     if (req.body.cast) req.body.cast = req.body.cast.split(/\s*,\s*/);
 
+    // Remove empty properties
+    for (let key in req.body) {
+      if (req.body[key] === '') delete req.body[key]
+    }
+
     const movie = new Movie(req.body);
     await movie.save();
 
     // for now, redirect right back to new.ejs
-    res.redirect('/movies/index');
+    res.redirect('/movies');
   } catch (err) {
     res.redirect('/movies/new');
   }
