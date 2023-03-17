@@ -1,0 +1,37 @@
+<!-- views/movies/new.ejs -->
+<%- include('../partials/header') %>
+
+  <h2>Enter a New Movie</h2>
+  <!-- Proper route created for our CREATE ACTION -->
+  <!-- RESTful Routes to CRUD Mapping -->
+  <!-- https://gist.github.com/jim-clark/17908763db7bd3c403e6 -->
+  <form action="/movies" method="POST">
+    <label>Title:
+      <!-- This name attribute is assigned the same VALUE as our MODEL -->
+      <!-- Check out ALL the OTHER name VALUES with the MODEL -->
+      <input type="text" name="title">
+    </label><br>
+    <label>Release Year:
+      <!-- With the name VALUE. USUALLY, if your data is not showing up (maybe one field), you have a mismatch here with the name VALUE  -->
+      <input type="number" name="releaseYear">
+    </label><br>
+    <label>MPAA Rating
+      <select name="mpaaRating">
+        <option value="G">G</option>
+        <option value="PG">PG</option>
+        <option value="PG-13">PG-13</option>
+        <option value="R">R</option>
+      </select>
+    </label><br>
+    <label>Cast (separate actors with commas):
+      <!-- For our array of actors, they're just gonna be string. -->
+      <!-- Our server will parse through those strings and extract the actors names WITH REGEX! 😂-->
+      <input type="text" name="cast">
+    </label><br>
+    <label>Now Showing:
+      <input type="checkbox" name="nowShowing" checked>
+    </label><br>
+    <button type="submit">Add Movie</button>
+  </form>
+
+  <%- include('../partials/footer') %>
