@@ -3,7 +3,6 @@
 [Embedding Related Data](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/blob/main/unit-2/week-2/d6-regex-and-mongoose-embedding/6.2-mongoose-embedding-related-data.md)
 
 
-## 1. [The Embedding Starter Code](https://git.generalassemb.ly/jim-clark-ga/mongoose-movies-2023Q2.git) located here. 
 
 ## 2. Review the starter code. 
 
