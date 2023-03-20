@@ -13,7 +13,7 @@
 
 | ***Week 2*** | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
 | -- | -- | -- | -- | -- | -- |
-| Warmup | None | [*Codewars*](https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript) | [*CS*]() | [*Codewars*]() | [*Codewars*]() |
+| Warmup | None | [*vowelCount*](https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript) | [*CS*]() | [*isPalindrome*](https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript) | [*Codewars*]() |
 | Morning | Lesson: [*Regular Expressions*](/unit-2/week-2/d6-regex-and-mongoose-embedding/6.1-regular-expressions.md)<br>---<br>Lesson: [*Mongoose - Embedding Related Data*](/unit-2/week-2/d6-regex-and-mongoose-embedding/6.2-mongoose-embedding-related-data.md) | Lesson: [**](/) | Lesson: [**](/) | Lesson: [**](/)<br>---<br>Lesson: [**](/)<br>---<br>Lesson: [**](/) | Lesson: [**](/) |
 | Afternoon | Lab: [*Mongoose Flights Lab Part 2*](/unit-2/week-2/d6-regex-and-mongoose-embedding/6.3-mongoose-flights-lab-part-2.md)<br>---<br>Lab: [*Mongoose - Single Model Create Practice*](/unit-2/week-2/d6-regex-and-mongoose-embedding/6.4-mongoose-single-model-create-practice.md) | ***\*Outcomes\****<br>---<br>Lab: [**]() | Lab: [**](/)<br>---<br>Lab: [**](/) | Lab: [**]() | Lab: [**]() |
 | Homework | [*Mongoose Flights Lab Part 2*](https://git.generalassemb.ly/SEIR-2-21-23/Mongoose-Flights-Lab-HWS12-13-14) | [**]() | [**]() | [**]() | [**]() |
