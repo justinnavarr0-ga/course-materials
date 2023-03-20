@@ -33,6 +33,7 @@ const movieSchema = new Schema({
   cast: [String],
   nowShowing: { type: Boolean, default: true },
   // reviews is an ARRAY of review subdocuments
+  // Telling Mongoose that the objects we push into the array must match the reviewSchema
   reviews: [reviewSchema]
 }, {
   timestamps: true
