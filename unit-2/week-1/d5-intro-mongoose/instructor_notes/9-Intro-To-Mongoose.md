@@ -168,13 +168,14 @@ const User = mongoose.model('User', userSchema);
 
 const user = new User({ name: 'Alice', age: 30 });
 
-user.save(function(err) {
-  if (err) {
-    console.error(err);
-  } else {
+user.save()
+  .then(() => {
     console.log('User saved successfully');
-  }
-});
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 ```
 
 - 2nd way to do it
@@ -183,26 +184,31 @@ Creates and simultaneously saves it. Can save multiple array of objects.
 ```js
 const User = mongoose.model('User', userSchema);
 
-User.create({ name: 'Bob', age: 35 }, function(err, user) {
-  if (err) {
-    console.error(err);
-  } else {
+User.create({ name: 'Bob', age: 35 })
+  .then((user) => {
     console.log('User created successfully:', user);
-  }
-});
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 ```
 
 #### Creating documents in a Node REPL
 
-```js
-Movie.create({
-  title: 'Star Wars - A New Hope',
-  releaseYear: 1977
-}).then((doc) => {
-  console.log(doc);
-}).catch((err) => {
-  console.error(err);
-});
+```console
+node
+> require('dotenv').config()   // Necessary if connection string in a .env file
+> require('./config/database')
+> const Movie = require('./models/movie')
+> Movie.create({
+... title: 'Star Wars - A New Hope',
+... releaseYear: 1977
+... }).then((doc) => {
+... console.log(doc);
+... }).catch((err) => {
+... console.error(err);
+...})
 ```
 
 `cast` gave me an array. `nowShowing` property not there. What's going on with this inconsistency?
@@ -568,18 +574,16 @@ function create(req, res) {
   const movie = new Movie(req.body);
   // These callback functions ALWAYS have this err signature
   // save is asynchronous.
-  movie.save(function(err) {
-    
-    if (err) {
-      // if we don't redirect, the new page will be shown
-      // with /movies in the address bar
+  movie.save()
+    .then(() => {
+      console.log("This here is our create movie function from our controllers/movie.js -->", movie);
       res.redirect('/movies/new');
-    }
+    })
+    .catch((err) => {
+      console.error(err);
+      res.redirect('/movies/new');
+    });
 
-    console.log("This here is our create movie function from our controllers/movie.js -->", movie);
-    // redirects back to new.ejs
-    res.redirect('/movies/new');
-  });
 }
 ```
 
@@ -678,15 +682,21 @@ module.exports = {
 }
 
 function index(req, res) {
-  Movie.find({}, function(err, movies) {
+  Movie.find({})
+    .then((movies) => {
     // movies is an array
     // {movie} provides data. render second argument ALWAYS an object.
-    res.render('movies/index', { movies })
-  });
+      res.render('movies/index', { movies })
+    })
+    .catch((err) => {
+      // handle error
+      console.error(err);
+    }
+  )
 }
 ```
 
-6. *`views/movies/index.ejs`*
+1. *`views/movies/index.ejs`*
 ```html
 <!-- views/movies/index.ejs -->
 <%- include('../partials/header') %>
@@ -840,4 +850,3 @@ const movieSchema = new mongoose.Schema({
 
 
 
-[Pilot Video Lectures](https://docs.google.com/spreadsheets/d/1yyCwHNexX-MrKWvyslmiMPZFBgJ9OUfGkX3MF42IIHQ/edit#gid=0)
