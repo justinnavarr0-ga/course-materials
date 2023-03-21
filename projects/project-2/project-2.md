@@ -102,7 +102,7 @@ You will have approximately 15 minutes to present your project following these g
 
 ☐ Be **deployed online** (Heroku).
 
-### Optionally, Your App Must Do One of the Following:
+### Your App Must Also Do One of the Following:
 
 ☐ Consume a third-party API.  If you choose to implement this option, it's likely that the data from the API will be a key data resource in your app, therefore it's important to consider how to implement whatever CRUD data operations will apply.  For example, how will data from the API find its way into your database?  Be sure to discuss with an instructor when planning your app's features.
 
