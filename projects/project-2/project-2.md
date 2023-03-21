@@ -13,8 +13,6 @@ You and your teammates together will architect, design, and collaboratively buil
 
 You get to decide what you want to build - as long as it meets the technical requirements outlined below.
 
-Additionally as part of the project's requirements, you'll be required to take and pass a Project Assessment.
-
 **This project will push you both technically and collaboratively!**
 
 You'll likely be working as part of a team in the workplace and **this project will provide you with that important team development experience.**
