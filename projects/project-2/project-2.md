@@ -5,15 +5,29 @@
 ## Overview
 
 This second project will be your first adventure into **building a full-stack 
-application.** You'll be **building a Node/Express/MongoDB app** from the ground up yourself.
+application.** You'll be **building a Node/Express/MongoDB app** from the ground up.
 
-This is exciting and by the end of this unit we will have given you the all of the tools needed to build your app.
+You’ve already worked in small groups to accomplish various labs and exercises, but this time **we’re going to challenge you to work in a small team on a project.**
+
+You and your teammates together will architect, design, and collaboratively build a full-stack web app.
 
 You get to decide what you want to build - as long as it meets the technical requirements outlined below.
 
-**You will be working individually for this project.** You'll be designing and coding the app yourself. However, you will have access to up to [insert number] fifteen-minute one-on-one sessions with your instructors.
-
 Additionally as part of the project's requirements, you'll be required to take and pass a Project Assessment.
+
+**This project will push you both technically and collaboratively!**
+
+You'll likely be working as part of a team in the workplace and **this project will provide you with that important team development experience.**
+
+However, **working on a project as part of a team can be more challenging** due to logistical reasons, differing opinions, etc.
+
+During this project, **your instructors are going to be evaluating your ability to**:
+
+-  Listen to and respect other opinions
+-  Share and contribute your ideas with the team
+-  Form a consensus and compromise when opinions differ
+
+### In fact, **your ability to work in a team during this project is more important than the project itself!**
 
 ---
 
@@ -40,7 +54,9 @@ Additionally as part of the project's requirements, you'll be required to take a
 
 ### Project Presentations - __________:
 
-You will have a maximum of 10 minutes to present your project following these guidelines:
+**Your entire team must participate in the presentation of the project.**
+
+You will have approximately 15 minutes to present your project following these guidelines:
 
 1. **Introduce the Project:**
 
@@ -88,11 +104,11 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ☐ Be **deployed online** (Heroku).
 
-### Optionally, Your App May:
+### Optionally, Your App Must Do One of the Following:
 
 ☐ Consume a third-party API.  If you choose to implement this option, it's likely that the data from the API will be a key data resource in your app, therefore it's important to consider how to implement whatever CRUD data operations will apply.  For example, how will data from the API find its way into your database?  Be sure to discuss with an instructor when planning your app's features.
 
-☐ Expose its own API where it returns data resources as JSON.
+☐ Incorporate Bootstrap into your project's styling.   
 
 ---
 
@@ -173,6 +189,46 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
 ---
 
+### Other Requirements:
+
+☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
+
+- [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
+- [Cheat Sheet in Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/seir-09-26-22)
+- [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+
+☐ All team members need to have significant contributions to the project via git commits.
+
+## Suggestions for Success
+
+1. **Use [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming)** where the team is always developing together on a single computer.  Read [this post](http://underthehood.meltwater.com/blog/2016/06/01/mob-programming/) for more information.  **All students will get more out of the project by following Mob Programming!**  Be sure to rotate who the driver is (typing the code) frequently so that every team member makes commits on the project.
+
+2.  **Identify roles** on the team, which may be:
+
+    - **GitHub Manager (required role)**: the primary person for "owning"/managing the repo and GitHub team workflow (merging pull requests, etc.).
+    - **Scrum Master**: the leader of the Agile processes (user stories, stand-ups, etc.) and manager of Trello.
+    - **Documenter**: the person in charge of the README, etc.
+    - **Designer**: the person in charge of UI design/layout (wireframes) and styling.
+    - **Database manager**: this person will be in charge of creating and managing the models.
+
+    Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
+
+3. After starting the project, creating/connecting to the database and creating the `main_app` and its `urls.py`, implement authentication and a dynamic nav bar.
+
+4. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
+
+5.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
+
+6. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
+
+7. **Commit early, commit often.**
+
+---
+
+## Obtaining Assistance from an Instructor
+
+- Although your kind instructors will be available to assist during project time, the amount of assistance you require is expected to be minimal due to the fact that you will be collaborating as a team regularly. 
+
 ## Project Feedback + Evaluation
 
 - Your instructors will be using the [Project 2 Code Review](./project-2-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
@@ -183,3 +239,4 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
 ---
+
