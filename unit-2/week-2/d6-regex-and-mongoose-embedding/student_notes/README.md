@@ -1,0 +1,1 @@
+Happy Monday Better Than Tomorrow! Hope y'all had a great weekend. How are we all feeling about MongoDB, Mongoose, Express, and Node?
