@@ -220,6 +220,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 ## Obtaining Assistance from an Instructor
 
 - Although your kind instructors will be available to assist during project time, the amount of assistance you require is expected to be minimal due to the fact that you will be collaborating as a team regularly. 
+- If you do need assistance please put in issue tickets using the same workflow as the last project.  
 
 ## Project Feedback + Evaluation
 
