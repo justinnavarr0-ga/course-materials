@@ -1,10 +1,3 @@
-[Sorting Lecture for 404 Not Found](https://generalassembly.zoom.us/rec/play/0AzOy8QDbl2AbaXXx4dTp2ZtxZ5OmnmXvr1U8YsgSBKv8vgNWDwoxqX0EZWuov2zlNaOasWDXYDuGbGM.FdbNJ80vsROdGEhj?continueMode=true&_x_zm_rtaid=fCQfydBDSYilmm2kX5Ebcg.1679477202759.852d91aee67ae5ec7a3ec48ddf7d6546&_x_zm_rhtaid=673)
-
-PW: E&5B@+it
-
-Start time: 1:53:00
-Resting Point: 2:45:00
-
 # Sorting Algorithms:
 
 Lots of ways to sort data. 
