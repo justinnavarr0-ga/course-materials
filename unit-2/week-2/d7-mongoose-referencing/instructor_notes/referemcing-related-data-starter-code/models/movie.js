@@ -30,7 +30,10 @@ const movieSchema = new Schema({
     type: String,
     enum: ['G', 'PG', 'PG-13', 'R']
   },
-  cast: [String],
+  cast: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Performer'
+  }],
   nowShowing: { type: Boolean, default: true },
   // reviews is an ARRAY of review subdocuments
   // Telling Mongoose that the objects we push into the array must match the reviewSchema

@@ -7,5 +7,5 @@ const reviewsCtrl = require('../controllers/reviews')
 // Define the Route below
 router.post('/movies/:id/reviews', reviewsCtrl.create)
 
-
 module.exports = router;
+
