@@ -1,11 +1,5 @@
 # Javascript Promises
 
-[JS Promises Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_2/3-mongodb-mongoose/3.3-js-promises.md)
-
-[JS Promises Video Lecture](https://generalassembly.wistia.com/medias/ns99odpx98)
-
-Stopping Point: 0:51:00
-
 # 1. Setup
 
 Seeding a database is the process of initializing the database with data. 
