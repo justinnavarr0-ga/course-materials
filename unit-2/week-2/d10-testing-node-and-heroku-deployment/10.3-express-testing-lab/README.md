@@ -9,7 +9,7 @@ Today, you will be adding automated testing to your Express API. You should have
 * PUT `gifs/:id` which will update a gif and return that gif
 * DELETE `gifs/:id` which will delete a gif
 
-Your code should make sure that each endpoint returns what it is supposed to. Directions for setting up testing and implementing tests can be found in the [Express Testing](/Unit_2/6-testing-node/6.1-express-tdd-master/README.md) lesson. 
+Your code should make sure that each endpoint returns what it is supposed to. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/tree/main/unit-2/week-2/d10-testing-node-and-heroku-deployment/10.1-express-tdd) lesson. 
 
 ### Set Up
 
