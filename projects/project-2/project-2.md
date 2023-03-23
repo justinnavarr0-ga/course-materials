@@ -186,7 +186,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 ☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
 
 - [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
-- [Cheat Sheet in Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/seir-09-26-22)
+- [Cheat Sheet in Class Repo](/projects/project-2/git_workflow_team_cheatsheet.md)
 - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
 
 ☐ All team members need to have significant contributions to the project via git commits.
