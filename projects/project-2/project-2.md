@@ -183,7 +183,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
 ### Other Requirements:
 
-☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
+☐ Your team must **manage team contributions and collaboration** using one of these workflows:
 
 - [Git Team Workflow](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/blob/main/unit-2/week-2/d10-testing-node-and-heroku-deployment/10.2-git-team-workflow/git-team-workflow.md)
 
