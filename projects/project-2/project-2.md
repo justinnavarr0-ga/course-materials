@@ -31,7 +31,7 @@ During this project, **your instructors are going to be evaluating your ability 
 
 ## Planning & Presentation Requirements
 
-### Planning - Due by ________:
+### Planning - Due by 3/24 at 10:00am PT:
 
 - A **[Trello](https://trello.com/) board** with:
     
@@ -50,7 +50,7 @@ During this project, **your instructors are going to be evaluating your ability 
     
     ☐ An **ERD** list containing an ERD identifying the attributes of each Data Entity (one for each Model and embedded schema). The ERD also needs to diagram relationships between the Entities (1:1, 1:M or M:M). Here's a [YouTube video to show you how](https://www.youtube.com/watch?v=QpdhBUYk7Kk).
 
-### Project Presentations - __________:
+### Project Presentations - 3/31 at 9:30am PT:
 
 **Your entire team must participate in the presentation of the project.**
 
