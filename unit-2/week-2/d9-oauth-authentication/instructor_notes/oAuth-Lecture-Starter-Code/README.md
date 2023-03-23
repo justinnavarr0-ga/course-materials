@@ -6,8 +6,7 @@
 - [x] Step 4: Install & Configure Session middleware
 - [x] Step 5: Install PassportJS
 - [x] Step 6: Create a Passport config module
-- [] Step 7: Install a Passport Strategy for OAuth
-- 
-Step 8: Configure Passport
-Step 9: Define routes for authentication
-Step 10: Add Login/Logout UI
+- [x] Step 7: Install a Passport Strategy for OAuth
+- [x] Step 8: Configure Passport
+- [x] Step 9: Define routes for authentication
+- [] Step 10: Add Login/Logout UI
