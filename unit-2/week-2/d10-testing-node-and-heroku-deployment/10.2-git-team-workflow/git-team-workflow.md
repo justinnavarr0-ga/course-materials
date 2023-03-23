@@ -246,7 +246,7 @@ branch, a branch for each feature under development, branches for each
 environment (i.e. staging and production) and each release.
 
 ![Feature Branch
-Workflow](<https://wac-cdn.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg>)
+Workflow](<https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=882>)
 
 > From
 > [Atlassian - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -285,11 +285,11 @@ as an outside contractor or freelancer._
 
 ## Project Workflow
 
-For project 3 the process we'll be following is a version of the feature branch workflow.
+For project 2 the process we'll be following is a version of the feature branch workflow.
 
 ### Initial Set Up
 
-1. Create a GitHub Organization for your repos, and add collaborators as members
+1. Create a GitHub Organization for your repo, and add collaborators as members
    of the organization. Their role must be set to **Owner**. To confirm that
    they have joined as owners, go to the "People" tab on your organization. If
    you need to change someone's role, you can do so by clicking the gear icon.
@@ -297,18 +297,16 @@ For project 3 the process we'll be following is a version of the feature branch 
    organization. Make sure you create the organization on GitHub and not GitHub
    Enterprise.
 
-1. Create an empty starting repo within the new GitHub organization. (If you were
-   working on an existing repo such as for homework, you'd fork it).
+1. Create an empty starting repo within the new GitHub organization..
 
-1. Using `git remote add origin <your-ssh-git-url>` attach your two GitHub
-   repos to the corresponding ones on your local computer (one for React containing your
-   front end app and another for Express containing your API server).
+1. Using `git remote add origin <your-git-url>` attach your GitHub
+   repo to the corresponding one on your local computer.
 
-1. Create a `dev` branch in each repo and push them up to the remotes
+1. Create a `dev` branch in the repo and push it up to the remote
    on GitHub.
 
-1. Have each member of the team clone, **NOT FORK**, both repos, so that they
-   have their own copies of each.
+1. Have each member of the team clone, **NOT FORK**, the repo, so that they
+   have their own copy.
 
 ### Regular Workflow
 
@@ -380,10 +378,10 @@ Work through the following steps as a team.
    If you have tests, run them.
 
 1. When you're satisfied that the app is ready to deploy,
-   check out the `master` branch and run `git merge dev`.
+   check out the `main` branch and run `git merge dev`.
 
 1. Push the finished version of your code up to GitHub
-   (`git push origin master`).
+   (`git push origin main`).
 
 1. Deploy!
 
