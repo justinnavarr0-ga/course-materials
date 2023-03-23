@@ -6,7 +6,7 @@ var logger = require('morgan');
 // session will create and add a cryptographically signed cookie
 var session = require('express-session');
 var passport = require('passport');
-
+var methodOverride = require('method-override');
 
 require('dotenv').config();
 // connect to the database with AFTER the config vars are processed
@@ -31,6 +31,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(session({
