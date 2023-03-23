@@ -31,7 +31,7 @@ During this project, **your instructors are going to be evaluating your ability 
 
 ## Planning & Presentation Requirements
 
-### Planning - Due by ________:
+### Planning - Due by 3/24 at 10:00am PT:
 
 - A **[Trello](https://trello.com/) board** with:
     
@@ -50,7 +50,7 @@ During this project, **your instructors are going to be evaluating your ability 
     
     ☐ An **ERD** list containing an ERD identifying the attributes of each Data Entity (one for each Model and embedded schema). The ERD also needs to diagram relationships between the Entities (1:1, 1:M or M:M). Here's a [YouTube video to show you how](https://www.youtube.com/watch?v=QpdhBUYk7Kk).
 
-### Project Presentations - __________:
+### Project Presentations - 3/31 at 9:30am PT:
 
 **Your entire team must participate in the presentation of the project.**
 
@@ -186,7 +186,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 ☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
 
 - [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
-- [Cheat Sheet in Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/seir-09-26-22)
+- [Cheat Sheet in Class Repo](/projects/project-2/git_workflow_team_cheatsheet.md)
 - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
 
 ☐ All team members need to have significant contributions to the project via git commits.
