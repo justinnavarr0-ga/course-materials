@@ -21,6 +21,10 @@
 
 ----
 
+### Week 3 - [*Project 2*](/projects/project-2)
+
+----
+
 ### Unit 2 Syllabus
 
 #### Node & Express
