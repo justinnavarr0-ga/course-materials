@@ -205,7 +205,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
     Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
 
-3. After starting the project, creating/connecting to the database and creating the `main_app` and its `urls.py`, implement authentication and a dynamic nav bar.
+3. After starting the project and creating/connecting to the database, implement authentication and a dynamic nav bar.
 
 4. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
 
