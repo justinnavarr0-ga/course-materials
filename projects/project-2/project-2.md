@@ -31,7 +31,7 @@ During this project, **your instructors are going to be evaluating your ability 
 
 ## Planning & Presentation Requirements
 
-### Planning - Due by ________:
+### Planning - Due by 3/24 at 10:00am PT:
 
 - A **[Trello](https://trello.com/) board** with:
     
@@ -50,7 +50,7 @@ During this project, **your instructors are going to be evaluating your ability 
     
     ☐ An **ERD** list containing an ERD identifying the attributes of each Data Entity (one for each Model and embedded schema). The ERD also needs to diagram relationships between the Entities (1:1, 1:M or M:M). Here's a [YouTube video to show you how](https://www.youtube.com/watch?v=QpdhBUYk7Kk).
 
-### Project Presentations - __________:
+### Project Presentations - 3/31 at 9:30am PT:
 
 **Your entire team must participate in the presentation of the project.**
 
@@ -183,11 +183,11 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
 ### Other Requirements:
 
-☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
+☐ Your team must **manage team contributions and collaboration** using one of these workflows:
 
 - [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
-- [Cheat Sheet in Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/seir-09-26-22)
 - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+- [Git Team Workflow](/unit-2/week-2/d10-testing-node-and-heroku-deployment/10.2-git-team-workflow/git-team-workflow.md)
 
 ☐ All team members need to have significant contributions to the project via git commits.
 
@@ -205,7 +205,7 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
     Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
 
-3. After starting the project, creating/connecting to the database and creating the `main_app` and its `urls.py`, implement authentication and a dynamic nav bar.
+3. After starting the project and creating/connecting to the database, implement authentication and a dynamic nav bar.
 
 4. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
 

@@ -9,12 +9,12 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: 50px 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "nav"
     "main"
 }
 
-body > nav {
+body>nav {
   grid-area: nav;
   background-color: #B8C0C2;
   display: flex;
@@ -23,13 +23,13 @@ body > nav {
   padding: 0 20px 0 30px;
 }
 
-nav > img {
+nav>img {
   width: 34px;
   object-fit: contain;
   margin-right: auto;
 }
 
-body > main {
+body>main {
   grid-area: main;
   display: flex;
   flex-direction: column;
@@ -39,23 +39,23 @@ body > main {
   overflow-y: scroll;
 }
 
-body > main h1:first-child {
+body>main h1:first-child {
   margin-bottom: 50px;
 }
 
-nav > a {
+nav>a {
   margin: 20px;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
 }
 
-nav > a:hover:not(.active) {
+nav>a:hover:not(.active) {
   color: white;
   background-color: #424748;
 }
 
-nav > a.active {
+nav>a.active {
   color: white;
   cursor: default;
 }
@@ -94,7 +94,8 @@ table td {
   text-align: center;
 }
 
-#list td:nth-child(2), #list td:nth-child(3){
+#list td:nth-child(2),
+#list td:nth-child(3) {
   min-width: 100px;
 }
 
@@ -129,7 +130,7 @@ table td {
 }
 
 #add-review-form input[type="submit"],
-#add-performer-form input[type="submit"]  {
+#add-performer-form input[type="submit"] {
   width: 10rem;
   grid-column: 2 / 3;
 }
@@ -162,7 +163,29 @@ hr {
   padding: 0;
   list-style: none;
 }
-  
+
 #show-page li {
   font-weight: bold;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+}
+
+.login img {
+  height: 30px;
+}
+
+.review-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-user img {
+  border-radius: 50%;
+  height: 40px;
 }
