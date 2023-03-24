@@ -12,7 +12,14 @@ const reviewSchema = new Schema({
     min: 1,
     max: 5,
     default: 5
-  }
+  },//these 3 properties are stuff were taking from google
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  userName: String,
+  userAvatar: String
 }, {
   timestamps: true
 });
