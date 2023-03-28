@@ -23,6 +23,8 @@
 
 ### Week 3 - [*Project 2*](/projects/project-2)
 
+[Sara Rose Q and A] (https://generalassembly.zoom.us/rec/share/1QX2pUF3OMdFmjoCACqtWu1O6DgmK-8gEzd7z6vx0nS8NZotpZqfh6JpTmfZBk-I.zB5VMgc13CiL2hvK)
+
 ----
 
 ### Unit 2 Syllabus
