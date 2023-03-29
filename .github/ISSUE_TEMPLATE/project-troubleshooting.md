@@ -1,6 +1,6 @@
 ---
-name: 'Project 1 Troubleshooting '
-about: Issue for troubleshooting Project 1 bugs
+name: 'Project Troubleshooting '
+about: Issue for troubleshooting Project bugs
 title: BRIEF ISSUE DESCRIPTION AND NAME
 labels: bug
 assignees: ''
