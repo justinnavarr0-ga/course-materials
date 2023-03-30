@@ -63,7 +63,8 @@ Below are steps to walk you through deploying a full-stack app on Railway.
         ```
     
     <img src="images/railway/variable_added.png" width="450px"/>
-    Make sure you change your callback url to reflect the production url NOT LOCALHOST 
+    
+1. Make sure you change your callback url to reflect the production url NOT LOCALHOST 
 
 1. You will also need to add a new authorized redirect URI on Googles Cloud API service for the People API
 
