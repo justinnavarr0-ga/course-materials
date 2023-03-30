@@ -25,7 +25,7 @@
 
 [Sara Rose Q and A](https://generalassembly.zoom.us/rec/share/1QX2pUF3OMdFmjoCACqtWu1O6DgmK-8gEzd7z6vx0nS8NZotpZqfh6JpTmfZBk-I.zB5VMgc13CiL2hvK)
 
-Lesson: [Bootstrap Lesson](/unit-2/week-3/BOOTSTRAP.md) | [Bootstrap Recording]()
+Lesson: [Bootstrap Lesson](/unit-2/week-3/BOOTSTRAP.md) | [Bootstrap Recording](https://generalassembly.zoom.us/rec/play/vADvECdfdkRDzxcibVPPUpy_bWNaAoorBmoODB4_XzG4Yg_7bGzEKOWtweThq5tiNd3lf68dL-ZFvpjV.u0xdYL7yppuYveyh?continueMode=true)
 
 ----
 
