@@ -52,7 +52,7 @@ Below are steps to walk you through deploying a full-stack app on Railway.
 1. Again Deploy from GitHub repo, now choose the repo you wish to deploy
     
     <img src="images/railway/choose_repo.png" width="450px"/>
-1. Before we deploy we need to add our MONGODB URI variable
+1. Before we deploy we need to add our MONGODB URI variable as well as our google OAuth variables
     
     <img src="images/railway/add_variables.png" width="450px"/>
     
@@ -63,6 +63,10 @@ Below are steps to walk you through deploying a full-stack app on Railway.
         ```
     
     <img src="images/railway/variable_added.png" width="450px"/>
+    Make sure you change your callback url to reflect the production url NOT LOCALHOST 
+
+1. You will also need to add a new authorized redirect URI on Googles Cloud API service for the People API
+
 1. Once that is complete you can navigate to the Deployments tab to finish the deployment and click view logs.
     
     <img src="images/railway/view_deployment.png" style="height:400px;width:100%;"/>
