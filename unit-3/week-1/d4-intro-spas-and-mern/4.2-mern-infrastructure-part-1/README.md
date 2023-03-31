@@ -49,19 +49,8 @@ Open a second integrated Terminal in VS code (`control + backtick`).
 
 Start the React Development server:
 ```
-npm run start
+npm run dev
 ```
-
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
-
-**`git reset --hard origin/sync-2-part-1-starter`**
-
-<hr>
-</details>
 
 ## 2. The 7-Part Plan for `mern-infrastructure`
 
@@ -224,12 +213,12 @@ Now let's move the `<App>` component's folder into **src/pages**:
 mv src/App src/pages
 ```
 
-### Update the Import in **index.js**
+### Update the Import in **main.js**
 
-The previous restructuring requires an update to the way **App.jsx** is being imported within **index.js**:
+The previous restructuring requires an update to the way **App.jsx** is being imported within **main.js**:
 
 ```jsx
-// index.js
+// main.js
 
 import App from './pages/App/App';
 ```
