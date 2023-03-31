@@ -261,52 +261,41 @@ Let's do this!
 
 ### Generate the React App
 
-The best way to create a React project is by using the `create-react-app` script provided by the React team:
-
 ```
 cd ~/code
-npx create-react-app mern-infrastructure
+npm create vite@latest
 ```
+Lets name our project mern-infrastructure and choose React with Javascript
 
-> 👀 A new folder will be created named **mern-infrastructure**. If you would like to generate a project in the future within an existing folder, you can use `.` in place of the project name.
+A new folder will be created named **mern-infrastructure**.
 
-Creating a new React app takes some time because `create-react-app` automatically installs the Node modules - and there's a ton of them!
 
-> 👀 It's best to ignore all severity vulnerabilities.  There's been much written about how create-react-app is simply tooling and that we should ignore npm's overreactions.
 
 Let's briefly review the outputted message:
 
 ```
-Created git commit.
+$ npm create vite@latest
+✔ Project name: … mern-infrastructure
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
 
-Success! Created mern-infrastructure at /Users/<your username>/code/mern-infrastructure
-Inside that directory, you can run several commands:
+Scaffolding project in .../mern-infrastructure...
 
-  npm start
-    Starts the development server.
-
-  npm run build
-    Bundles the app into static files for production.
-
-  npm test
-    Starts the test runner.
-
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
-
-We suggest that you begin by typing:
+Done. Now run:
 
   cd mern-infrastructure
-  npm start
-
-Happy hacking!
+  npm install
+  npm run dev
 ```
 
 Now we can:
 
 ```
 cd mern-infrastructure
+```
+Then install all the dependencies
+```
+npm i
 ```
 
 Open the project in VS Code:
@@ -317,16 +306,12 @@ Open an integrated terminal in VS Code:
 ```
 control + backtick
 ```
-CRA has already initialized a repo, so let's connect to the code-along repo that you can sync with it as needed:
-```
-git remote add origin https://git.generalassemb.ly/sei-blended-learning/mern-infrastructure.git
-git fetch --all
-```
+
 Spin up React's built-in development server:
 ```
-npm start
+npm run dev
 ```
-which automatically opens the app in a browser tab at `localhost:3000`:
+which automatically opens the app in a browser tab at `localhost:5173`:
 
 <img src="https://i.imgur.com/4ouH8bS.png" height="400">
 
@@ -345,7 +330,7 @@ We will soon be coding the Express server to serve the production React app.
 
 Thus, we need to build the React app's code locally into production code at least once so that the Express server does not raise an error.
 
-The `create-react-app` CLI includes tooling and a **build** script in **package.json** that, when run, compiles the the code in the **src** and **public** folders of the React project into production code - placing it into a folder named **build**.
+The `npm create vite` CLI includes tooling and a **build** script in **package.json** that, when run, compiles the the code in the **src** and **public** folders of the React project into production code - placing it into a folder named **dist**.
 
 Let's run the build script:
 
@@ -355,9 +340,9 @@ npm run build
 
 > 👀 npm requires us to use the `run` command for scripts other than `start` and `test`.
  
-After building, examining our project's structure reveals a new **build** folder containing production ready static assets including **index.html**, **static/css** & **static/js** folders, etc.  If this React app was a frontend only app, the assets in the build folder would be ready to deploy to any static hosting service.
+After building, examining our project's structure reveals a new **dist** folder containing production ready static assets including **index.html**, **static/css** & **static/js** folders, etc.  If this React app was a frontend only app, the assets in the build folder would be ready to deploy to any static hosting service.
 
-This **build** folder of production-ready goodness is ready to be served up by an Express backend...
+This **dist** folder of production-ready goodness is ready to be served up by an Express backend...
 
 ### Code the Skeleton Express App
 
@@ -372,12 +357,12 @@ Instead we're going to code our own Express app from scratch because we won't ne
 
 #### Install the Modules for the Express Server
 
-There's no problem with the Express project happily sharing that same **package.json** that `create-react-app` created.
+There's no problem with the Express project happily sharing that same **package.json** that `npm create vite` created.
 
 For now, we're only going to install a minimal number of modules for the Express app:
 
 ```
-npm i express morgan serve-favicon
+npm i express morgan
 ```
 
 Again, we don't need a view engine because our server will be either serving static assets (index.html, CSS, JS, images, etc.) or responding to AJAX requests with JSON. There will be no EJS templates!
@@ -397,7 +382,6 @@ Let's code our Express server:
 	```js
 	const express = require('express');
 	const path = require('path');
-	const favicon = require('serve-favicon');
 	const logger = require('morgan');
 	
 	const app = express();
@@ -417,23 +401,20 @@ Let's code our Express server:
     <hr>
     </details>
 
-4. Mount and configure the `serve-favicon` & `static` middleware so that they serve from the **build** (production) folder:
+4. Mount and configure the `static` middleware so that they serve from the **build** (production) folder:
 
 	```js
 	app.use(express.json());
 	
-	// Configure both serve-favicon & static middleware
-	// to serve from the production 'build' folder
-	app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
-	app.use(express.static(path.join(__dirname, 'build')));
+	// Configure static middleware
+	// to serve from the production 'dist' folder
+	app.use(express.static(path.join(__dirname, 'dist')));
 	```
 
-5. Set the port for development to use `3001` so that React's dev server can continue to use `3000` and finally, tell the Express app to listen for incoming requests:
+5. Set the port for development to use `3000`, tell the Express app to listen for incoming requests:
 
 	```js
-	// Configure to use port 3001 instead of 3000 during
-	// development to avoid collision with React's dev server
-	const port = process.env.PORT || 3001;
+	const port = process.env.PORT || 3000;
 	
 	app.listen(port, function() {
 	  console.log(`Express app running on port ${port}`)
@@ -477,6 +458,16 @@ Then, after **index.html** loads in the browser, the React app's client-side rou
 
 ### Test the Express Server
 
+The last thing we need to do is remove our module type from the package.json to allow this file to be read for the front and backend
+```
+{
+  "name": "mern-infrastructure",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module", <-- this line needs to be deleted
+  "scripts": {
+```
+
 We should now be able to test the Express server.
 
 However, we can no longer just type `nodemon` because just typing `nodemon` will run the command in the `start` script in **package.json** and that script is being used to start the React development server instead.
@@ -487,9 +478,8 @@ Therefore, in our MERN-Stack development environment, it's important to start th
 nodemon server
 ```
 
-As expected, the Express server will run on port 3001 instead of 3000 (which is where the React dev server runs).
 
-Browsing to `localhost:3001` will display the built production React app!
+Browsing to `localhost:3000` will display the built production React app!
 
 <details>
 <summary>
@@ -504,7 +494,7 @@ Browsing to `localhost:3001` will display the built production React app!
 
 ## 6. Configure React for MERN-Stack Development
 
-Note how we're viewing the React app without the React development server running, again, this is because we are viewing the production code that's in the **build** folder, not the code as it exists in the **src** folder.
+Note how we're viewing the React app without the React development server running, again, this is because we are viewing the production code that's in the **dist** folder, not the code as it exists in the **src** folder.
 
 So, when you are developing and nothing seems to be updating in the browser - be sure to verify that you are browsing at `localhost:3000`!
 
@@ -532,13 +522,13 @@ To develop a MERN-Stack app, you'll need **two separate** Terminal sessions for 
     <p>
 
     ```
-    npm start
+    npm run dev
     ```
 
     </p>
     </details>
 
-Now, browse to `localhost:3000`, **not** `3001`!
+Now, browse to `localhost:5173`
 
 So far, so good, just one more configuration issue...
 
@@ -556,7 +546,7 @@ return fetch('/api/orders/history').then(res => res.json());
 </summary>
 <hr>
 
-**The same host as shown in the address bar:<br>`localhost:3000`**
+**The same host as shown in the address bar:<br>`localhost:5173`**
 
 <hr>
 </details>
@@ -567,35 +557,32 @@ return fetch('/api/orders/history').then(res => res.json());
 </summary>
 <hr>
 
-**The Express server that's listening for AJAX requests at:<br>`localhost:3001` !**
+**The Express server that's listening for AJAX requests at:<br>`localhost:3000` !**
 
 <hr>
 </details>
 
-Luckily, the React team has created an easy fix for this dilemma. The React development server allows us to configure a "proxy" which specifies the host to forward API/AJAX calls to.
+Luckily, the Vite team has created an easy fix for this dilemma. The React development server allows us to configure a "proxy" which specifies the host to forward API/AJAX calls to.
 
-The fix is to add a `"proxy"` property in the  **package.json** (be sure that it's a "top-level" property):
+The fix is to add a `"proxy"` property in the  **vite.config.js**:
 
 ```
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "proxy": "http://localhost:3001"
-}
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    }
+  }
+})
 ```
 
-> 👀 The React dev server will NOT automatically restart when changes are made to the package.json file.
+> 👀 The React dev server will NOT automatically restart when changes are made to the vite.config.js file.
 
-Now the React development server will forward all AJAX calls, such as `fetch('/api/todos')`, to `localhost:3001` instead of `localhost:3000`.
+Now the React development server will forward all AJAX calls, such as `fetch('/api/todos')`, to `localhost:3000` instead of `localhost:5173`.
 
 BTW, this is only an issue **during development** - the deployed app will be just fine thanks to the way we structured the app as a single project.
 
@@ -607,7 +594,7 @@ BTW, this is only an issue **during development** - the deployed app will be jus
 </summary>
 <hr>
 
-**`git reset --hard origin/sync-1-finish-intro`**
+**`git pull upstream main`**
 
 <hr>
 </details>
@@ -620,7 +607,7 @@ BTW, this is only an issue **during development** - the deployed app will be jus
 </summary>
 <hr>
 
-**The `build` folder**
+**The `dist` folder**
 
 <hr>
 </details>
