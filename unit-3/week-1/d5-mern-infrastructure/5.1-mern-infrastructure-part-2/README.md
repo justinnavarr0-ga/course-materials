@@ -51,7 +51,7 @@ Open a second integrated Terminal in VS code (`control + backtick`).
 
 Start the React Development server:
 ```
-npm start
+npm run dev
 ```
 
 <details>
