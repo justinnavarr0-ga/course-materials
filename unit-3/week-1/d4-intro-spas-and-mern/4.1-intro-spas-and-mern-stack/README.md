@@ -245,7 +245,7 @@ Let's do this!
 ### Generate the React App
 
 ```
-cd ~/code
+cd ~/.../4.1-intro-spas-and-mern-stack/student_notes
 npm create vite@latest
 ```
 Lets name our project mern-infrastructure and choose React with Javascript
