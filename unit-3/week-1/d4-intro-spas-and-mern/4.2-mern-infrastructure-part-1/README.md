@@ -27,7 +27,7 @@ This lesson continues to build-out the `mern-infrastructure` project right where
 
 Move into your **~/code** folder:
 ```
-cd ~/code
+cd ~/.../4.2-mern-infrastructure-part-1/student_notes
 ```
 Open the project in VS Code:
 ```
