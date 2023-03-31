@@ -245,7 +245,7 @@ Let's do this!
 ### Generate the React App
 
 ```
-cd ~/code
+cd ~/.../4.1-intro-spas-and-mern-stack/student_notes
 npm create vite@latest
 ```
 Lets name our project mern-infrastructure and choose React with Javascript
@@ -296,16 +296,11 @@ npm run dev
 ```
 which automatically opens the app in a browser tab at `localhost:5173`:
 
-<img src="https://i.imgur.com/4ouH8bS.png" height="400">
-
-
 The React development server automatically builds and reloads the app in the browser whenever changes are saved.
 
 Within VS Code, we'll find a Node project's usual **package.json**, **node_modules**, etc.
 
 The React project's source code lives within the **src** folder:
-
-<img src="https://i.imgur.com/d9T3Vqw.png" height="400">
 
 ### Build the React App's Production Code
 
