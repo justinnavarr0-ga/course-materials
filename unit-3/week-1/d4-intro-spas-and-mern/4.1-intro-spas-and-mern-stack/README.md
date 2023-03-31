@@ -195,23 +195,6 @@ However, developing a MERN-stack project involves complexities such as tooling s
 
 Additionally, there are concerns during both **development and production** that have to be addressed...
 
-#### During Development
-
-A React project uses a development server that compiles and serves the React app to the browser at `localhost:3000`.
-
-<details>
-<summary>
-❓ There's a conflict between React's development server and the Express applications we've built previously - what is it?
-</summary>
-<hr>
-
-**They both run on port `3000` by default** and only a single process can run on a given port.
-
-<hr>
-</details>
-
-Luckily, the React team recognized this conflict and has a solution which we'll see in a bit.
-
 #### Production Environment Concerns
 
 As we develop our React app locally, we're writing source code that React's dev server builds and runs automatically.  However, this is not production ready code because it has extra debugging logic, etc.
