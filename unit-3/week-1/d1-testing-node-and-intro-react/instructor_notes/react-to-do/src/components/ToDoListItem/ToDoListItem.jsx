@@ -1,10 +1,15 @@
 import React from 'react'
+import './ToDoListItem.css'
 
-
-export default function ToDoListItem() {
+export default function ToDoListItem({ todo, index }) {
   return (
     <>
-      <h2>To Do List Item</h2>
+      <li
+        className="ToDoListItem"
+        style={{ backgroundColor: index % 2 ? "lavender" : "plum" }}
+      >
+        {todo}
+      </li>
     </>
   )
 }
