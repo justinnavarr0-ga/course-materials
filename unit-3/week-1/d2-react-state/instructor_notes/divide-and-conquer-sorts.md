@@ -544,3 +544,8 @@ console.log(quickSort([4, 6, 9, 1, 2, 5, 3]))
 
 O(log n) decompositions
 O(n) comparisons per decomposition
+
+
+[Overview of Quicksort](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
+
+[Differences Between Merge Sort and Quick Sort](https://www.interviewkickstart.com/learn/quicksort-vs-merge-sort#:~:text=Quicksort%20is%20very%20efficient%20for,complexity%20of%20O(n))
