@@ -1,3 +1,25 @@
+# Real World Use Cases for Merge Sort:
+
+1. **Database Sorting:** Merge sort is often used in database sorting algorithms to sort and merge large data sets quickly and efficiently.
+
+2. **External Sorting:** Merge sort is ideal for sorting large files that do not fit into main memory, such as external hard drives.
+
+3. **Parallel Processing:** Merge sort can be parallelized, which allows for efficient sorting of large data sets across multiple processors and can be used in big data processing applications.
+
+4. **Network Routing:** In network routing, merge sort can be used to sort a list of potential routes to determine the fastest or most efficient route for data to travel.
+
+5. **Multimedia Sorting:** Merge sort can be used in multimedia applications, such as sorting large collections of images or videos.
+
+6. **Genome Sequencing:** Merge sort can be used in genome sequencing to sort and merge large data sets of DNA sequences, which is essential for identifying genetic mutations and developing targeted treatments.
+
+7. **Search Algorithms:** Merge sort can be used as a sorting subroutine in search algorithms to sort data before searching for specific items.
+
+8. **Event Scheduling:** Merge sort can be used to sort a list of events by their start or end times, making it easier to schedule and manage events.
+
+9. **Financial Data Analysis:** Merge sort can be used in financial data analysis to sort and merge large data sets of financial transactions and market data, making it easier to identify trends and patterns.
+
+10. **Data Visualization:** Merge sort can be used in data visualization applications to sort and display large amounts of data in an organized and meaningful way, making it easier to interpret and analyze the data.
+
 # Divide and Conquer Sorts
 
 [Divide-and-Conquer Sorts](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/blob/main/computer-science/05-cs-divide-and-conquer-sorts/readme.md)
@@ -98,6 +120,30 @@ function mergeSort(arr) {
 const arr = [33, 14, 55, 223, 23, 4124, 49, 72]
 console.log(mergeSort(arr));
 ```
+
+# Real World Use Cases for Quick Sort:
+
+1. **Web Browsers:** Quick sort can be used in web browsers to sort and render web pages in the order of importance or relevance to the user.
+
+2. **Computer Graphics:** Quick sort can be used in computer graphics to sort a list of objects by their depth, making it easier to display them in the correct order.
+
+3. **File Systems:** Quick sort can be used in file systems to sort files and folders alphabetically or by size, making it easier to locate specific files and folders.
+
+4. **Music and Video Players:** Quick sort can be used in music and video players to sort playlists by song name, artist, album, or genre.
+
+5. **Machine Learning:** Quick sort can be used in machine learning algorithms to sort and preprocess large data sets of training data, making it easier to train the model.
+
+6. **Language Analysis:** Quick sort can be used in natural language processing to sort and preprocess large data sets of text documents, making it easier to analyze the language.
+
+7. **Geographical Data Analysis:** Quick sort can be used in geographical data analysis to sort and preprocess large data sets of geographic data, such as maps and satellite images.
+
+8. **Operating Systems:** Quick sort can be used in operating systems to sort and manage processes and threads, making it easier to allocate system resources efficiently.
+
+9. **Scientific Data Analysis:** Quick sort can be used in scientific data analysis to sort and preprocess large data sets of scientific data, such as temperature readings, making it easier to analyze the data.
+
+10. **Financial Analysis:** Quick sort can be used in financial analysis to sort and preprocess large data sets of financial data, such as stock prices, making it easier to analyze the data and identify trends.
+
+
 
 ## Quick Sort: 
 
