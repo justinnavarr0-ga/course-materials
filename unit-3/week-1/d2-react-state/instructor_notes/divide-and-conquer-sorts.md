@@ -462,7 +462,6 @@ function quickSort(arr, left = 0, right = arr.length - 1) {
     quickSort(arr, left, pivotIndex - 1)
     quickSort(arr, pivotIndex + 1, right)
   }
-  // Okay, still not QUITE DONE.
   return arr;
 }
 
