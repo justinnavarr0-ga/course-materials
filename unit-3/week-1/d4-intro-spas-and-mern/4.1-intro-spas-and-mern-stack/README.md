@@ -185,7 +185,7 @@ and place an orders!
 
 We'll begin by building out the infrastructure (boilerplate) that most real-world MERN-Stack apps starts with, including client-side routing and authentication.
 
-After the infrastructure code is complete, we'll save the project to a separate repo that can be cloned to launch future MERN-Stack projects, including your capstone project at the end of this unit!
+After the infrastructure code is complete, we'll save the project to a separate repo that can be cloned to launch future MERN-Stack projects, including your  project at the end of this unit!
 
 ### How to Structure a MERN-Stack Project
 
