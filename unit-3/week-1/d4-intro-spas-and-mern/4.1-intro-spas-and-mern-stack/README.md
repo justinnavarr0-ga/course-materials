@@ -126,7 +126,7 @@ For example, the LAMP-Stack is a mature technology stack that uses:
 - MySQL and
 - PHP (web development programming language)
 
-In the last unit, our stack consisted of:
+In the next unit, our stack will consist of:
 - Python
 - Django and 
 - PostgreSQL
