@@ -90,6 +90,7 @@ export default class SignUpForm extends Component {
     confirm: '',
     error: ''
   };
+}
 ```
 
 ### `this` Keyword in a Class Component
