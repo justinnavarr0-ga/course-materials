@@ -20,8 +20,6 @@ export default class SignUpForm extends Component {
     this.setState({ [evt.target.name]: evt.target.value, error: '' })
   }
 
-
-
   render() {
     const disable = this.state.password !== this.state.confirm;
     return (
