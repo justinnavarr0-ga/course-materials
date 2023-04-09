@@ -9,6 +9,18 @@
 | Homework | [*React Dev Skills Lab Part 1 & Part 2*](https://git.generalassemb.ly/SEIR-2-21-23/React-Dev-Skills-Lab-HWS16-17-18) | [*React Dev Skills Lab Part 3*](https://git.generalassemb.ly/SEIR-2-21-23/React-Dev-Skills-Lab-HWS16-17-18/blob/main/README.md#react-dev-skills-lab---part-3) | [*React Dev Skills Lab Part 4*](https://git.generalassemb.ly/SEIR-2-21-23/React-Dev-Skills-Lab-HWS16-17-18/blob/main/README.md#react-dev-skills-lab---part-4) | [*React Calendar Lab Part 1 & Part 2*](https://git.generalassemb.ly/SEIR-2-21-23/React-Calendar-HW19-/blob/main/README.md) | [*React Movies Lab Part 1 & Part 2*](https://git.generalassemb.ly/SEIR-2-21-23/React-Movies-HW-20-21-22/blob/main/README.md) |
 | Zoom Recordings | [4/1/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/B7oJqeU9-pphZPUPYSKua-qol1mVAsz5rOUp4XQzB5V_bh-G1O4xO1zLx-ZEKXt6.EkMv8y7hKBdPOluQ) | [4/4/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/2EqnUBJv8CYic-9ehyhhfoPSHotJO6JKAAV-lRL-mGQIc9V8IZnX0i1bVsrM6VKE.p0q0G7uIO0opfJ6l) | [4/5/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/rSJQ_7DGBXc2ipspfxS1h1BUgwTnRHXuP2uj-S9gzaaVgmmxCdpnSkmk0gLtQZ03.XueMv5_hdk_9DPDf) | [4/6/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/gdLiWr9gLLoETX7CIm8587j96BP9T4M917KFyOcnw_JcP_h-JK2sF707nPjx2rRL.p6FiAgbvU9xPeiKP) |  |
 
+----
+
+| ***Week 2*** | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture(s) | [MERN Infrastructure Part 4]()<br>---<br>[MERN Infrastructure Part 5]() | [MERN Infrastructure Part 6]()<br>---<br>[MERN Infrastructure Part 7]() | [useEffect & useRef]() | [MERN-Stack Shopping Cart Part 1]()<br>---<br>[MERN-Stack Shopping Cart Part 2]() | [socket.io]()<br>---<br>[**Optional** Testing React with Jest]() |
+| Lab | [React Movies Lab Part 3]() | [MERN Infrastructure Login Lab (after part 6)](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) | [MERN-Stack Quick Notes Lab]() | [GA Stock Market Lab]() | [MERN-Stack Class Code-Along]() |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science | [Linked Lists](/computer-science/07b-linked-lists/) |  | [Stacks & Queues](/computer-science/08-stacks-and-queues/) |  | [Hash Tables](/computer-science/09-hash-tables/) |
+| Daily Coding Challenge | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
+
+----
+
 ### Unit 3 Syllabus
 
 #### Fundamentals of React
