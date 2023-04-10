@@ -13,11 +13,11 @@
 
 | ***Week 2*** | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [MERN Infrastructure Part 4]()<br>---<br>[MERN Infrastructure Part 5]() | [MERN Infrastructure Part 6]()<br>---<br>[MERN Infrastructure Part 7]() | [useEffect & useRef]() | [MERN-Stack Shopping Cart Part 1]()<br>---<br>[MERN-Stack Shopping Cart Part 2]() | [socket.io]()<br>---<br>[**Optional** Testing React with Jest]() |
-| Lab | [React Movies Lab Part 3]() | [MERN Infrastructure Login Lab (after part 6)](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) | [MERN-Stack Quick Notes Lab]() | [GA Stock Market Lab]() | [MERN-Stack Class Code-Along]() |
-| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science | [Linked Lists](/computer-science/07b-linked-lists/) |  | [Stacks & Queues](/computer-science/08-stacks-and-queues/) |  | [Hash Tables](/computer-science/09-hash-tables/) |
-| Daily Coding Challenge | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
+| Warmup | [*Unique in Order*](https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript) | [*Codewars*]() | [*CS Linked Lists*](/computer-science/07b-linked-lists/) | [*CS Stacks & Queues*](/computer-science/08-stacks-and-queues/) | [*CS Sets*](/) |
+| Morning | Lesson: [*MERN Infrastructure Part 4*](/unit-3/week-2/d6-mern-infrastructure-continued/6.1-mern-infrastructure-part-4)<br>---<br>Lesson: [*MERN Infrastructure Part 5*](/unit-3/week-2/d6-mern-infrastructure-continued/6.2-mern-infrastructure-part-5) | Lesson: [*MERN Infrastructure Part 6*]()<br>---<br>Lesson: [*MERN Infrastructure Part 7*]() | Lesson: [*useEffect & useRef*]() | Lesson: [*MERN-Stack Shopping Cart Part 1*]()<br>---<br>Lesson: [*MERN-Stack Shopping Cart Part 2*]() | Lesson: [*socket.io*]()<br>---<br>Lesson: [**Optional** *Testing React with Jest*]() |
+| Afternoon | Lab: [*React Movies Lab Part 3*](https://git.generalassemb.ly/SEIR-2-21-23/React-Movies-HW-20-21-22/blob/main/README.md)<br>---<br>Lab: [*React Giphy Fetch Lab*](/unit-3/week-2/d6-mern-infrastructure-continued/6.4-react-giphy-fetch-lab.md) | ***\*Outcomes\****<br>---<br>Lab: [*MERN Infrastructure Login Lab*]() | Lab: [*MERN-Stack Quick Notes Lab*]() | Lab: [*GA Stock Market Lab*]() | Lab: [*MERN-Stack Class Code-Along*]() |
+| Homework | [*React Movies Lab Part 3*](https://git.generalassemb.ly/SEIR-2-21-23/React-Movies-HW-20-21-22/blob/main/README.md) | [*MERN Infrastructure Login Lab*]() | [*MERN-Stack Quick Notes Lab*]() | [*GA Stock Market Lab*]() | Project 3 |
+| Zoom Recordings |  |  |  |  |  |
 
 ----
 

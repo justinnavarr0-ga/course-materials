@@ -89,34 +89,7 @@ We can use `fetch` to make HTTP requests using any HTTP method, include headers 
 
 Again, back when we consumed the GitHub API in Unit 2, we refactored the code from calling `then()` on promises to use [`async`/`await`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await).
 
-Here was the `then()` based code we used in the GitHub API lesson:
-
-```js
-router.get('/', function(req, res, next) {
-  const username = req.query.username;
-  if (!username) return res.render('index', {userData: null});
-  const options = {
-    headers: {
-      Authorization: `token ${token}`
-    }
-  };
-  let userData;
-  // This is a search for a user
-  fetch(`${rootURL}users/${username}`, options)
-    .then(res => res.json())
-    .then(user => {
-      userData = user;
-      return fetch(userData.repos_url, options);
-    })
-    .then(res => res.json())
-    .then(repos => {
-      userData.repos = repos;
-      res.render('index', { userData });
-    });
-});
-```
-
-and here was the refactored code using `async`/`await`:
+here was the code using `async`/`await`:
 
 ```js
 router.get('/', async function (req, res, next) {
@@ -135,7 +108,7 @@ router.get('/', async function (req, res, next) {
 });
 ```
 
-Quite an improvement in terms of conciseness and readability.  Look how the `await` keyword "pauses" the code until the promise is resolved and causes the promise to return its resolved value allowing us to assign the value to variables as shown with `userData` and `repos` above.
+Look how the `await` keyword "pauses" the code until the promise is resolved and causes the promise to return its resolved value allowing us to assign the value to variables as shown with `userData` and `repos` above.
 
 However, in order to use the magical `await` keyword, we must preface its containing function with the `async` keyword - do you see it?
 
