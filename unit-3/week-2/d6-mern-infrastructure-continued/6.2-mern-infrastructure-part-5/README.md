@@ -64,7 +64,7 @@ There is a great website dedicated to JWTs that explains them in detail and prov
 Let's take a JWT from the website and demonstrate that the token can be easily decoded in the browser's console:
 
 ```js
-> const jwt = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ';
+> const jwt = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJCVFkiLCJuYW1lIjoiTWF0dGhldyBHb25jemFyIiwibWVzc2FnZSI6IkkgY3JlYXRlZCB0aGlzIG1lc3NhZ2UgdG8gc2hvdyBvZmYgYSBKV1QgVG9rZW4iLCJpYXQiOjE1MTYyMzkwMjJ9.xURCHuhzmlQzoKV3IIMttqBYhO3s3bwesL9FfMRKwsU';
 > const payload = jwt.split('.')[1]  // only interested in the payload (claims)
 > atob(payload)
 < "{"sub":"1234567890","name":"John Doe","admin":true}"
