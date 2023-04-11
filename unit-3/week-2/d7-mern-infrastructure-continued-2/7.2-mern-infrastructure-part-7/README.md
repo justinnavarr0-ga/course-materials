@@ -9,8 +9,6 @@
 | Send the JWT to the Server in AJAX Requests |
 | Validate the JWT and Add the Payload to `req.user` |
 | Protect Server-Side Routes that Require A Logged In User |
-| Save MERN-Stack Infrastructure To a New GitHub Repo |
-| Create a new MERN-Stack Project from the `mern-infrastructure` Repo |
 
 ## Road Map
 
@@ -25,8 +23,6 @@ In Part 7 we will will wrap up the basic infrastructure for a MERN-Stack app.
   1. Send the token with AJAX requests
   2. Check the token on the server and add a `user` property to `req`
   3. Implement middleware to protect server-side routes
-  4. Save MERN-Stack infrastructure to a new GH repo
-  5. Using `mern-infrastructure` to Create MERN-Stack Projects in the Future
 
 ## 1. Send the Token with AJAX Requests
 
