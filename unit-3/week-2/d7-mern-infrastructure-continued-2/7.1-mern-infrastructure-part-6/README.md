@@ -401,87 +401,11 @@ export default function LoginForm({ setUser }) {
 
 <strong>Just kidding - this is great news!
 
-You've had considerable practice working with state, input, props, etc., so you're going to implement the rest of the login functionality as a group practice exercise!</strong>
+You've had considerable practice working with state, input, props, etc., so you're going to implement the rest of the login functionality as a practice exercise!</strong>
 
 </p>
 </details>
 
 <hr>
-
-#### 💪 Practice Exercise - Implement Login Functionality (30 - 45 minutes)
-
-Be sure to read all of the following before starting to code...
-
-1. Add the `<LoginForm>` component above to the project following the naming convention for the folder and module.
-
-2. Render the `<LoginForm>` below the `<SignUpForm>` in `<AuthPage>`. It will be an icebox item to display only one of the forms at a time.
-
-3. Start implementing login functionality by reading the code in the `handleSubmit` function in **LoginForm.jsx** - that call to `usersService.login(credentials)` starts your journey.
-
-    > IMPORTANT:  The existing code in **LoginForm.jsx** is complete - don't change anything.
-
-4. Again, follow the flow from the UI to the server and back.
-
-5. Use the code and logic we used to implement Sign Up functionality as a guide. The `login` functions that need to be added to the **users-service.js** and **users-api.js** modules are similar to the existing `signUp` functions.
-
-6. FYI, the solution code uses the server-side route of `POST /api/users/login` mapped to a controller action named `login`.
-
-7. The `login` controller action is the most challenging. Although in structure it's similar to `create`, it has slightly different functionality - instead of creating the user we need to query for the user based upon their `email` and then verify the password is correct using [bcrypt's `compare` method](https://www.npmjs.com/package/bcrypt#with-promises).
-
-    > Hint 1: The `User` model's `findOne` is the appropriate query method to use to find a user based on their email.
-
-    > Hint 2: Remember to require the bcrypt library.
-    
-    > Hint 3: When invoking bcrypt's `compare` method, use the syntax that returns a promise and consume it with `await`.
-
-      <details><summary>Peek if you must...</summary>
-      <p>
-
-      ```js
-      const match = await bcrypt.compare(req.body.password, user.password);
-      ```
-
-      </p>
-      </details>
-
-    > Hint 4: Be sure to structure the code so that it responds with a status code of 400 if either the user is not found in the database (bad email) or if the user is found but the password doesn't match.
-
-    <details><summary>Feel free to use the following code if you get stuck or run out of time</summary>
-    <p>
-
-    ```js
-    // controllers/api/users.js
-
-    // Be Sure to add the following
-    const bcrypt = require('bcrypt');
-
-    module.exports = {
-      create,
-      login
-    };
-
-    async function login(req, res) {
-      try {
-        const user = await User.findOne({ email: req.body.email });
-        if (!user) throw new Error();
-        const match = await bcrypt.compare(req.body.password, user.password);
-        if (!match) throw new Error();
-        res.json( createJWT(user) );
-      } catch {
-        res.status(400).json('Bad Credentials');
-      }
-    }
-    ```
-
-    </p>
-    </details>
-
-8. See how far you can get and feel free to reach out for assistance if you get stuck - enjoy!
-
-**Icebox**
-
-1. Instead of showing both the `<SignUpForm>` and `<LoginForm>` simultaneously, implement showing one or the other in `<AuthPage>` - just like the [deployed SEI CAFE](https://sei-cafe.herokuapp.com/) does.
-
-    > Hint: This is an obvious use case for a piece of ui-related state.
 
 #### Congrats, mern-infrastructure has only one more part remaining!
