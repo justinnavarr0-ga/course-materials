@@ -34,7 +34,7 @@ This project requires **planning** organized within a **Trello board** with the 
 
 > Please reach out to your instructional team if you have questions regarding user stories, the data model, etc.
 
-### Presentation Requirements - __________
+### Presentation Requirements - Due April 21st at 10:00am PT
 
 You will have 10 minutes to present and demonstrate the following:
 
