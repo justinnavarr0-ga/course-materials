@@ -1,112 +1,95 @@
 <img src="https://i.imgur.com/NQXEQci.png">
 <img = src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png"> 
 
-# Project #3<br>Build a Full-stack MERN App as a Team
+# Project #3 Build a Full-Stack MERN App
 
-### Overview
+## Overview
 
-You’ve already worked in small groups to accomplish various labs and exercises, but this time **we’re going to challenge you to work in a small team on a project.**
+**You’ve come a long way, and it's time to show it.** This will be your most advanced project to date.
 
-You and your teammates together will architect, design, and collaboratively build a full-stack web app.
+**Before you start working** on the planning for your project, be sure to review your idea with an instructor to ensure that it both:
 
-With this project you'll be building an exciting full-stack app that uses the **MERN-stack**.
+- **Meets the minimum requirements**, and
+- **Is reasonably scoped**
 
-**This project will push you both technically and collaboratively!**
+## Project Requirements
 
-You'll likely be working as part of a team in the workplace and **this project will provide you with that important team development experience.**
+### Planning Requirements - Due April 14th SOC
 
-However, **working on a project as part of a team can be more challenging** due to logistical reasons, differing opinions, etc.
+As you've discovered, a project consists of more than just code.
 
-During this project, **your instructors are going to be evaluating your ability to**:
+This project requires **planning** organized within a **Trello board** with the following **lists**:
 
--  Listen to and respect other opinions
--  Share and contribute your ideas with the team
--  Form a consensus and compromise when opinions differ
+☐ **Icebox**: Holds user stories that have yet to be moved to the _Current/MVP_ list. All user stories are originally put into the _Icebox_, including both MVP and wish list stories. 
 
-### In fact, **your ability to work in a team during this project is more important than the project itself!**
+☐ **Current/MVP**: Holds user stories that must be completed to meet the minimum project requirements (MVP). Once the MVP has been met, additional user stories may be moved to this list from the _Icebox_.
 
-## Planning & Presentation Requirements
+☐ **Completed**: Holds completed user stories. 
 
-### Planning:
+> Important: User stories need to be formed properly using this template:<br>`As a <role>, I want <feature> so that <reason>`.<br>The _reason_ is optional if it's patently obvious.
 
-Working in a team is going to require more upfront planning to ensure the team is "on the same page"...
+☐ **Wireframes**: Sketches of each screens's user interface for the major functionality of the application.
 
-#### Pitch Deck - Presented By Your Team on __________
+☐ **Entity-Relationship-Diagram (ERD)**: A diagram of the app's models (one per data entity) and the relationships between them.
 
-☐ **Pitch your project** to the class with a [pitch deck](https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck) that includes:
+> Please reach out to your instructional team if you have questions regarding user stories, the data model, etc.
 
-- The application name.
-- Your team members and their roles.
-- The problem you are going to solve with your app.
-- Check out previous decks: [Tripio](https://docs.google.com/presentation/d/1gvOypLc4VjKqJzdAW68iwh28uGDSH4Sp1KnA5grDo2g/edit#slide=id.p), [Pantry](https://docs.google.com/presentation/d/1WvHoN5MNaRembgcoog5p0GtivVCOZSzvfPyeevzy08g/edit), [ArtWorld](https://docs.google.com/presentation/d/1yGy2Mh3n6IhPxFu4XKnnMtPPi4OGFPpf-Z_TMYw6wQY/edit#slide=id.g7ba109823e_2_7)
+### Presentation Requirements - __________
 
-#### Trello Board - Due __________
+You will have 10 minutes to present and demonstrate the following:
 
-- A **[Trello](https://trello.com/) board** with:
-    
-    ☐ **User Stories**, each moving from left to right in the following 
-      three lists in your board:<br>
-      	- **Ice Box**<br>
-      	- **Current/MVP**<br>
-      	- **Completed**<br>
-      <br>**User Stories** must follow the following template:<br>**_As a \<user role\>, I want \<feature\>, because \<reason\>._**<br>The _reason_ is optional if it's blatantly obvious.
+1. Introduce your project by paraphrasing its README.
 
-    ☐ **Wireframes of the main pages of functionality**, e.g. Landing Page, Posts Index Page, Favorite Posts Page, Add Post Page, etc.
-    
-    ☐ An **ERD** showing the attributes of each entity and the relationships between them. Refer to the Data Modeling lesson for assistance.
+2. Click the link in the README to open the deployed app on Heroku.
 
-### Project Presentations - __________:
+3. Demonstrate the application's authentication features by signing up a new user, logging out that user, then logging in with your preferred user.
 
-**Your entire team must participate in the presentation of the project.**
+4. Demonstrate your app's main features.
 
-You will have approximately 15 minutes to present your project following these guidelines:
+5. Share/discuss the following code:
 
-1. **Introduce the Project:**
+	- The "main" Mongoose model
+	- Your "favorite" Express controller method
+	- Your "favorite" React component
+	- The client-side routing
 
-	☐ Intro your project by paraphrasing the README.
-	
-2. **Demonstrate the Project:**
+6. Share the experience by answering the following:
 
-	☐ Launch the project by clicking the link in the README.
-	
-	☐ Sign up a new user, then immediately log out.
-	
-	☐ Log in with your preferred user and demonstrate the features of the app.
-	
-	☐ Be sure to demo the qualifying CRUD data operations.
-	
-3. **Show/discuss your code:**
+	- What was your biggest challenge?
+	- What are your key learnings/takeaways?
 
-	☐ The "main" Mongoose model
-	☐ Your "favorite" Express controller method
-	☐ Your "favorite" React component
-	☐ The client-side routing
+Following your presentation, there may be a brief Q & A period and optional instructor feedback.
 
-4. **Share the experience:**
+### Version Control Requirements
 
-	☐ What was your biggest challenge? (besides Team Git Workflow)
-	
-	☐ What are your key learnings/takeaways?
-	
-5. **Q & A + Feedback**
+☐ The project's source code must be hosted on a personal **GitHub repository**.
 
----
+☐ The repo is to contain **frequent commits** (**at least** 1 per day) dated from the beginning of the project through its completion. **Do not** "start over" by replacing the repository with a different one.
 
-## Project Workflow:  Implementing User Stories
+### README Requirements
 
-1. After all of the user stories that you can think of are defined in the Ice Box list, prioritize them your with your "wish list" items at the bottom. 
+Don't underestimate the value of a well crafted `README.md`.
 
-2. After the prioritization, move the user stories for the MVP to the Current/MVP list. FYI, the MVP (Minimum Viable Product) in this case consists of the minimal user stories that will result in the project requirements being fulfilled.
+The `README.md` introduces your project to prospective employers and forms their first impression of your work!
 
-3. After the user story at the top of the Current/MVP list is implemented, move it to the Completed list.
+> Note: Do not include project planning (user stories, wireframes or ERDs) in the `README.md`.
 
-4. When there are no more user stories in the Current/MVP list - focus on ensuring that the app's features look polished!
+Include the following sections within the **`README.md`**:
 
-5. After the MVP's features look great and if time permits, the user story from the top of the Ice Box list may be implemented.  Ensure that each Ice Box user story's feature is polished before moving on to another user story in the Ice Box.
-
----
+☐ **App Title:** Contains a description of what the app does and optional background info.
   
-## Technical Requirements
+☐ **Screenshot(s):** A screenshot of your app's landing page and any other screenshots of interest.
+  
+☐ **Technologies Used**: List of the technologies used.
+    
+☐ **Getting Started**: That Includes:
+  	
+- A link to the **deployed app** (Heroku)
+- A link to the **Trello board** used for the project's planning that includes user stories, wireframes & an ERD.
+  
+☐ **Next Steps**: Planned future enhancements (icebox items).
+  
+### Technical Requirements
 
 ☐ A **working** full-stack, single-page application hosted on Heroku.
 
@@ -129,65 +112,33 @@ You will have approximately 15 minutes to present your project following these g
 	
 - Consume data from a third-party API.
 - Implement additional functionality if the user is an admin.
-- Implementation of a highly dynamic UI or data visualization.
 - Other, instructor approved, complexity/features.
 
-### Other Requirements:
+## Self-Sufficiency / Project Assistance
 
-☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
+- At this stage of SEI, being able to find the the answers to development issues is of paramount importance. 
 
-- [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
-- [Cheat Sheet in Class Repo](../../resources/git_workflow_team_cheatsheet.md)
-- [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+- Use all resources available to solve the issue on your own before seeking assistance.
 
-☐ All team members need to have significant contributions to the project via git commits.
+- If you do seek assistance in Slack, use the debugging channel and explain the issue as clearly and detailed as you can, include screenshots when possible, and be prepared to explain what you've done to solve the issue on your own.
 
-##### A ``README.md`` file with these sections:
+## Suggestions to Get Started
 
-  ☐ **App Title:** Contains a description of what the app does and optional background info.
-  
-  ☐ **Screenshot(s):** A screenshot of your app's landing page and any other screenshots of interest.
-  
-  ☐ **Technologies Used**: List of the technologies used.
-    
-  ☐ **Getting Started**: That Includes:
-  	
-- A link to the **deployed app** (Heroku)
-- A link to the **Trello board** used for the project's planning that includes user stories, wireframes & an ERD.
-- A link to the **pitch-deck**.
-  
-☐ **Next Steps**: Planned future enhancements (icebox items).
-  
-  > Note: Don't underestimate the value of a well crafted `README.md`. The `README.md` introduces your project to prospective employers and forms their first impression of your work!
+- Don’t get too caught up in too many awesome features – simple is better. Favor fewer features that look/feel impressive over numerous clunky/sloppy features.
 
----
+- Because it takes longer to code user interfaces using React than with EJS & DTL, be sure to prioritize user stories to meet the MVP and ice box the others.
 
-## Suggestions for Success
+- create a new repo on your **personal** GitHub account
 
-1. **Use [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming)** where the team is always developing together on a single computer.  Read [this post](http://underthehood.meltwater.com/blog/2016/06/01/mob-programming/) for more information.  **All students will get more out of the project by following Mob Programming!**  Be sure to rotate who the driver is (typing the code) frequently so that every team member makes commits on the project.
+- Implement the "As a visitor, when I browse to the app, I want..." user story first.
 
-2.  **Identify roles** on the team, which may be:
+- Follow the steps we've done in class to implement features, beginning with the user's interaction and code the flow from client -> server -> client. 
 
-    - **GitHub Manager (required role)**: the primary person for "owning"/managing the repo and GitHub team workflow (merging pull requests, etc.).
-    - **Scrum Master**: the leader of the Agile processes (user stories, stand-ups, etc.) and manager of Trello.
-    - **Documenter**: the person in charge of the README, etc.
-    - **Designer**: the person in charge of UI design/layout (wireframes) and styling.
-    - **Database manager**: this person will be in charge of creating and managing the models.
-
-    Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
-
-
-3. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
-
-4.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
-
-5. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
-
-6. **Commit early, commit often.**
+- Read the docs for whatever technologies / frameworks / API’s you use.
 
 ## Best Practices
 
-- Make AJAX calls from "API" modules, not components. Export application/business logic from "service" modules.
+- **Make AJAX calls** from "API" modules, not components. Export application/business logic from "service" modules.
 
 - **Be consistent** with your code style.
 
@@ -197,19 +148,3 @@ You will have approximately 15 minutes to present your project following these g
 
 - **Comment your code where it makes sense to do so**. Most code is self-documenting (don't comment the obvious), however, use comments to explain complicated code.
 
-## Obtaining Assistance from an Instructor
-
-- Although your kind instructors will be available to assist during project time, the amount of assistance you require is expected to be minimal due to the fact that you will be collaborating as a team regularly. 
-
-- **All requests for assistance should be slacked to the class `support` channel, not individual instructors**.  This approach will provide the best and quickest response for your team, as well as be helpful to other teams that may be faced with the same issue.
-
----
-
-## Project Feedback + Evaluation
-
-- Your instructors will be using the [Project 3 Code Review](/Unit_3/project-3/project-3-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements. (Please ignore the Pitch Deck requirement).
-- If your instructors determine that your project would pass with minor fixes, you will be required to address the minor deficiencies by 9 am the following day of class. Please be sure to inform your local instructor when the fixes are complete. FYI, "minor fixes" are minor items that can be fixed very quickly, like code formatting, correcting the README, etc.
-- If your instructors determine that the project does not meet the minimum requirements you may request to address the deficiencies identified and resubmit the project. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
-- If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
-
----
