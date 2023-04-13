@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import * as itemsAPI from '../../utilities/items-api';
+import * as ordersAPI from '../../utilities/orders-api'
 import './NewOrderPage.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../components/Logo/Logo';
@@ -13,9 +14,11 @@ export default function NewOrderPage({ user, setUser }) {
   // initialize to an empty array
   const [menuItems, setMenuItems] = useState([]);
   const [activeCat, setActiveCat] = useState('');
+  const [cart, setCart] = useState(null);
+
   const categoriesRef = useRef([]);
 
-  useEffect(function() {
+  useEffect(function () {
     async function getItems() {
       const items = await itemsAPI.getAll();
       categoriesRef.current = [...new Set(items.map(item => item.category.name))];
@@ -23,10 +26,17 @@ export default function NewOrderPage({ user, setUser }) {
       setActiveCat(categoriesRef.current[0]);
     }
     getItems();
+
+    // Load cart (a cart is the unpaid order for the logged in user)
+    async function getCart() {
+      const cart = await ordersAPI.getCart();
+      setCart(cart);
+    }
+    getCart();
   }, []);
   // An empty dependency array results in the effect
   // function running ONLY after the FIRST render
-  
+
   return (
     <main className="NewOrderPage">
       <aside>
