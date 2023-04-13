@@ -1,5 +1,3 @@
-[MERN Shopping Cart Part 2 Video](https://generalassembly.wistia.com/medias/ys48uqd9wt)
-
 [MERN Shopping Cart Part 2 REPO](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/tree/main/unit-3/week-2/d9-mern-shopping-cart/9.2-mern-shopping-cart-part-2)
 
 We want to be able to click the `add` button and have the item be added to the cart. 

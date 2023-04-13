@@ -1,7 +1,5 @@
 # MERN-Stack Infrastructure
 
-[SHOPPING CART PART 1 Video](https://generalassembly.wistia.com/medias/whg8z89nsk)
-
 [MERN Shopping Cart Part 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/tree/main/Unit_4/3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1)
 
 ## 1. Setup:
