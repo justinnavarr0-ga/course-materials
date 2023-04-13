@@ -37,6 +37,21 @@ export default function NewOrderPage({ user, setUser }) {
   // An empty dependency array results in the effect
   // function running ONLY after the FIRST render
 
+  // Event Handlers
+  async function handleAddToOrder(itemId) {
+    // Call the addItemToCart function in ordersAPI, passing to it the itemId, and assign the resolved promise to a variable named updatedCart.
+    // addItemToCart coming from src/utilities/orders-api.js
+    // sending itemId as a router parameter
+    const updatedCart = await ordersAPI.addItemToCart(itemId)
+    // Update the cart state with the updated cart received from the server
+    setCart(updatedCart)
+  }
+
+  async function handleChangeQty(itemId, newQty) {
+    const updatedCart = await ordersAPI.setItemQtyInCart(itemId, newQty)
+    setCart(updatedCart)
+  }
+
   return (
     <main className="NewOrderPage">
       <aside>
@@ -51,8 +66,13 @@ export default function NewOrderPage({ user, setUser }) {
       </aside>
       <MenuList
         menuItems={menuItems.filter(item => item.category.name === activeCat)}
+        // Pass the handleAddToOrder function as a prop of the same name through the component hierarchy to the <MenuListItem> component.
+        handleAddToOrder={handleAddToOrder}
       />
-      <OrderDetail />
+      <OrderDetail
+        order={cart}
+        handleChangeQty={handleChangeQty}
+      />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import './LineItem.css';
 
-export default function LineItem({ lineItem, isPaid }) {
+export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
   return (
     // The LineItem component renders a single line item in an order, including its emoji, name, price, quantity, and extended price.
     <div className="LineItem">
@@ -15,14 +15,14 @@ export default function LineItem({ lineItem, isPaid }) {
         {!isPaid &&
           <button
             className="btn-xs"
-            onClick={() => alert('clicked')}
+            onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty - 1)}
           >−</button>
         }
         <span>{lineItem.qty}</span>
         {!isPaid &&
           <button
             className="btn-xs"
-            onClick={() => alert('clicked')}
+            onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty + 1)}
           >+</button>
         }
       </div>

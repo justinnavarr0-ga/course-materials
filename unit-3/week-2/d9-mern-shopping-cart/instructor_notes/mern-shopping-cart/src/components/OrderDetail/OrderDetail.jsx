@@ -2,7 +2,7 @@ import './OrderDetail.css';
 import LineItem from '../LineItem/LineItem';
 
 // Used to display the details of any order, including the cart (unpaid order)
-export default function OrderDetail({ order }) {
+export default function OrderDetail({ order, handleChangeQty }) {
   if (!order) return null;
 
   // The component creates an array of LineItem components by mapping over the order.lineItems array.
@@ -11,6 +11,7 @@ export default function OrderDetail({ order }) {
     <LineItem
       lineItem={item}
       isPaid={order.isPaid}
+      handleChangeQty={handleChangeQty}
       key={item._id}
     />
   );
