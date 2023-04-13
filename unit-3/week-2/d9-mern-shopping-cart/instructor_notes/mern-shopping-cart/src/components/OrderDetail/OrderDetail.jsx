@@ -2,7 +2,7 @@ import './OrderDetail.css';
 import LineItem from '../LineItem/LineItem';
 
 // Used to display the details of any order, including the cart (unpaid order)
-export default function OrderDetail({ order, handleChangeQty }) {
+export default function OrderDetail({ order, handleChangeQty, handleCheckout }) {
   if (!order) return null;
 
   // The component creates an array of LineItem components by mapping over the order.lineItems array.
@@ -39,7 +39,7 @@ export default function OrderDetail({ order, handleChangeQty }) {
                 :
                 <button
                   className="btn-sm"
-                  onClick={() => alert('clicked')}
+                  onClick={handleCheckout}
                   disabled={!lineItems.length}
                 >CHECKOUT</button>
               }
