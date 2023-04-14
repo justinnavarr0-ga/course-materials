@@ -88,3 +88,4 @@ export default function NewOrderPage({ user, setUser }) {
     </main>
   );
 }
+
