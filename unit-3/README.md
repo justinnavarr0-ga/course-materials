@@ -19,6 +19,9 @@
 | Homework | [*React Movies Lab Part 3*](https://git.generalassemb.ly/SEIR-2-21-23/React-Movies-HW-20-21-22/blob/main/README.md#react-movies-lab---part-3) | [*MERN Infrastructure Login Lab*](https://git.generalassemb.ly/SEIR-2-21-23/MERN-Infrastructure-Login-Lab-HW23) | [*Project 3 Proposals*](/projects/project-3) (due Fri morning) | Either Lab Above | Project 3 |
 | Zoom Recordings | [4/8/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/3xXSDGCICgQ07b2BQv7bQSE43ce-xYW3beWUHYqUNAd6rRM2Vwn8NhncjanfTJUG.22SYh1VbVr1EhcDz) | [4/11/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/Ii_FG8pdFw1mCmCz_wuI9W3z1e5VdU9BN6rwzPt44zSAf0UHPXIsbZMKqo-7LjyM.fBCW3ESuLXroaAca)  | [4/12/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/3TmmpKH-zLutOv1qyi9xQFW449a-A-UaszInowQ1Y9YbWOEeVrCGNroq66PdsgNf.gg_B9KlRuUevmoUf) | [4/13/24 Zoom Recording](https://generalassembly.zoom.us/rec/share/3TmmpKH-zLutOv1qyi9xQFW449a-A-UaszInowQ1Y9YbWOEeVrCGNroq66PdsgNf.gg_B9KlRuUevmoUf) | [4/14/24 Zoom Recording](https://generalassembly.zoom.us/rec/share/pVTpnsm4gCfZxqf9rCdWKcwfR2yzmVXwlKF8jH37KZLIEdTHygQvOWZwZrn7x1u8.R4zjxbfFipsVbkJ3) |
 
+----
+
+### Week 3 - [*Project 3*](/projects/project-3)
 
 ----
 
