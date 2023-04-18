@@ -19,13 +19,13 @@
 | Homework | [*Flexbox Froggy*](https://flexboxfroggy.com/)<br>[*Grid Garden*](https://cssgridgarden.com/) | [*Callbacks Lab*](https://git.generalassemb.ly/SEIR-2-21-23/Callbacks-Lab-HW5) | [*JS Classes Lab*](https://git.generalassemb.ly/SEIR-2-21-23/JS-Classes-Lab-HW5) | [*Intro to Testing Lab*](https://git.generalassemb.ly/SEIR-2-21-23/JS-Testing-Lab-HW7) | Project 1 Proposals |
 | Zoom Recordings | [2-27 Zoom Recording](https://generalassembly.zoom.us/rec/share/4FM4E6Sb7bPXxv77GnPkjl7ZD5n-pTeoWoVh1PM0eZXq0JwTeJ9J8h-6GhvGX8O3.6YIupALQRnwnFk-R) | [2-28 Zoom Recording](https://generalassembly.zoom.us/rec/share/a5r_eKAhswu16dsy1bmb8IHEnhzz53Gln0dOPHeaeDawbYI91C2ppk1XKCO_h11T.Kqq0OSoBZM8rb5z7) | [3-1 Zoom Recording](https://generalassembly.zoom.us/rec/share/T1LS3vpnT-_H8YxrRX8ZAP37KWXxX61llKR2SWQfETEs_Qzr7YSNADhVM-gPl9x5.hf-02k-7-ZGwqwGc) | [3-2 Zoom Recording](https://generalassembly.zoom.us/rec/share/REEpuN3Nuv2HXnETAvEasoxJKcDTE8CRba7mQufSriNu77BVcOjVp2PpKw1oWxCS.lfDf7ZDNgFq1m0Fs) | [3-3 Zoom Recording](https://generalassembly.zoom.us/rec/share/JUqKskfQqR9fEDO3fgT1uKzKAQ_UYttKBsoEKIVHSMSsi2-H1Oq8UPhYLeMIrZ5C.hZwe4YB4HyhkPYt2) |
 
-[OPTIONAL README ZOOM RECORDING](https://generalassembly.zoom.us/rec/share/YO6GG-Ng17weq-7ixdKs0o9HQmmAg4RB7qJYj0GlJjX5fT3zW2_5igv1yIPO-jHa.eNN4YS8QfsBwNp_x) 
-
-[PROJECT PRESENTATIONS](https://generalassembly.zoom.us/rec/share/DrcrawtNpEia9TdB1RTqghOCG3WfSXT2OruxIDQ71tE3gQF8CSaxtlmCk4qm4xpM.l4vHp2HIySZvmHYA?startTime=1678471680000) 
-
 ----
 
 ### Week 3 - [*Project 1*](/projects/project-1)
+
+[OPTIONAL README ZOOM RECORDING](https://generalassembly.zoom.us/rec/share/YO6GG-Ng17weq-7ixdKs0o9HQmmAg4RB7qJYj0GlJjX5fT3zW2_5igv1yIPO-jHa.eNN4YS8QfsBwNp_x) 
+
+[PROJECT PRESENTATIONS](https://generalassembly.zoom.us/rec/share/DrcrawtNpEia9TdB1RTqghOCG3WfSXT2OruxIDQ71tE3gQF8CSaxtlmCk4qm4xpM.l4vHp2HIySZvmHYA?startTime=1678471680000)
 
 ----
 
