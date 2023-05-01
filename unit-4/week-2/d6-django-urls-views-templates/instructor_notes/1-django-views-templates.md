@@ -3,7 +3,7 @@
 # Django URLs, Views, and Templates
 
 Class Repo
-[Django URLs, Views, and Templates](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_3/3-django/3.2-django-urls-views-templates-full.md)
+[Django URLs, Views, and Templates](https://git.generalassemb.ly/SEIR-2-21-23/course-materials/blob/main/unit-4/week-2/d6-django-urls-views-templates/6.1-django-urls-views-templates.md)
 
 Programming With Mosh
 [Python Django Tutorial for Beginners](https://www.youtube.com/watch?v=rHux0gMZ3Eg)
