@@ -1,5 +1,4 @@
-<img src="https://i.imgur.com/NQXEQci.png">
-<img = src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png"> 
+<img src="https://i.imgur.com/QgojyYY.png" width="400">
 
 # Project #4: Your Capstone Project
 
@@ -14,7 +13,7 @@
 
 ## Project Requirements
 
-### Planning Requirements - Due _________
+### Planning Requirements - Due 5/5
 
 As you've discovered, a project consists of more than just code.
 
@@ -34,7 +33,7 @@ This project requires **planning** organized within a **Trello board** with the 
 
 > Please reach out to your instructional team if you have questions regarding user stories, the data model, etc.
 
-### Presentation Requirements - __________
+### Presentation Requirements - 5/15
 
 You will have 10 minutes to present and demonstrate the following:
 
@@ -48,10 +47,9 @@ You will have 10 minutes to present and demonstrate the following:
 
 5. Share/discuss the following code:
 
-	- The "main" Mongoose model
-	- Your "favorite" Express controller method
-	- Your "favorite" React component
-	- The client-side routing
+	- The "main" model
+	- Your "favorite" Express controller method/ Model View
+	- Your "favorite" React component/ template
 
 6. Share the experience by answering the following:
 
@@ -91,7 +89,7 @@ Include the following sections within the **`README.md`**:
   
 ### Technical Requirements
 
-☐ A **working** full-stack, single-page application hosted on Heroku.
+☐ Be a full-stack **Django** or **MERN** application hosted on Heroku.
 
 ☐ Incorporate the technologies of the **MERN-stack**:
 
@@ -100,20 +98,25 @@ Include the following sections within the **`README.md`**:
 - React
 - Node
 
+OR
+
+☐ Incorporate the technologies of **Django**:
+  
+  - Connect to and perform data operations on a **PostgreSQL** database (the default SQLLite3 database is not acceptable).
+
+AND
+
 ☐ **Have a well-styled interactive front-end**.
 
-☐ Communicates with the **Express** backend via AJAX.
-
-☐ Implement token-based **authentication**.  Including the ability of a user to sign-up, log in & log out.
+☐ Implement **authentication**. Including the ability of a user to sign-up, log in & log out.
 
 ☐ Implement **authorization** by restricting CUD data functionality to authenticated users. Also, navigation should respond to the login status of the user.
 
-☐ **Have a well-scoped feature-set**. Full-CRUD data operations are not required if one or more other features are included, for example:
-	
-- Consume data from a third-party API.
-- Implement additional functionality if the user is an admin.
-- Implementation of a highly dynamic UI or data visualization.
-- Other, instructor approved, complexity/features.
+☐ Have **full-CRUD data operations** across any combination of the app's models (excluding the User model). For example, creating/reading/updating posts and creating/deleting comments qualifies as full-CRUD data operations. 
+
+☐ If consuming an API (OPTIONAL), have at least **one data entity** (Model) in addition to a User model. The related entity can be either a **one-to-many (1:M) or a many-to-many (M:M)** relationship.
+
+☐ If not consuming an API, have at least **two data entities** (Models) in addition to a User model. It is preferable to have at least **one one-to-many (1:M) and one many-to-many (M:M)** relationship between entities/models.  
 
 ## Self-sufficiency / Project Assistance
 
@@ -127,21 +130,13 @@ Include the following sections within the **`README.md`**:
 
 - Don’t get too caught up in too many awesome features – simple is better. Favor fewer features that look/feel impressive over numerous clunky/sloppy features.
 
-- Because it takes longer to code user interfaces using React than with EJS & DTL, be sure to prioritize user stories to meet the MVP and ice box the others.
+- Be sure to prioritize user stories to meet the MVP and ice box the others.
 
-- Begin by cloning the `mern-infrastructure` repo, create a new repo on your **personal** GitHub account, change the `origin` remote to that of the new repo with `git remote set-url origin <new_remote_url>`.
-
-- Update the project name in the package.json file and make other name changes, e.g., update the `<title>` in index.html, etc.
-
-- Implement the "As a visitor, when I browse to the app, I want..." user story first.
-
-- Follow the steps we've done in class to implement features, beginning with the user's interaction and code the flow from client -> server -> client. 
+- Implement the "As a visitor, when I browse to the app, I want..." user story first. 
 
 - Read the docs for whatever technologies / frameworks / API’s you use.
 
 ## Best Practices
-
-- Make AJAX calls from "API" modules, not components. Export application/business logic from "service" modules.
 
 - **Be consistent** with your code style.
 
