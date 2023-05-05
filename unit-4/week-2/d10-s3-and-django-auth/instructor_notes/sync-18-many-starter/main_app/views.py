@@ -1,6 +1,10 @@
 from django.shortcuts import render, redirect
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView
+from django.contrib.auth import login
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Cat, Toy, Photo
 from .forms import FeedingForm
 import uuid
@@ -19,13 +23,17 @@ def about(request):
     return render(request, 'about.html')
 
 
+@login_required
 def cats_index(request):
-    cats = Cat.objects.all()
+    # cats = Cat.objects.all()
+    # See only the user created cats
+    cats = Cat.objects.filter(user=request.user)
     return render(request, 'cats/index.html', {
         'cats': cats
     })
 
 
+@login_required
 def cats_detail(request, cat_id):
     cat = Cat.objects.get(id=cat_id)
 
@@ -43,21 +51,29 @@ def cats_detail(request, cat_id):
     })
 
 
-class CatCreate(CreateView):
+class CatCreate(LoginRequiredMixin, CreateView):
     model = Cat
     fields = ['name', 'breed', 'description', 'age']
+    # Method over riding
+
+    def form_valid(self, form):
+        # self.request.user is the logged in user
+        form.instance.user = self.request.user
+        # CreateView's form_valid method
+        return super().form_valid(form)
 
 
-class CatUpdate(UpdateView):
+class CatUpdate(LoginRequiredMixin, UpdateView):
     model = Cat
     fields = ['breed', 'description', 'age']
 
 
-class CatDelete(DeleteView):
+class CatDelete(LoginRequiredMixin, DeleteView):
     model = Cat
     success_url = '/cats'
 
 
+@login_required
 def add_feeding(request, cat_id):
     # create a ModelForm instance using
     # the data that was submitted in the form
@@ -74,48 +90,52 @@ def add_feeding(request, cat_id):
     return redirect('detail', cat_id=cat_id)
 
 
-class ToyList(ListView):
+class ToyList(LoginRequiredMixin, ListView):
     model = Toy
 
 
-class ToyDetail(DetailView):
+class ToyDetail(LoginRequiredMixin, DetailView):
     model = Toy
 
 
-class ToyCreate(CreateView):
+class ToyCreate(LoginRequiredMixin, CreateView):
     model = Toy
     fields = '__all__'
 
 
-class ToyUpdate(UpdateView):
+class ToyUpdate(LoginRequiredMixin, UpdateView):
     model = Toy
     fields = ['name', 'color']
 
 
-class ToyDelete(DeleteView):
+class ToyDelete(LoginRequiredMixin, DeleteView):
     model = Toy
     success_url = '/toys'
 
 
+@login_required
 def assoc_toy(request, cat_id, toy_id):
     # You can pass a toy's id instead of the whole toy object
     Cat.objects.get(id=cat_id).toys.add(toy_id)
     return redirect('detail', cat_id=cat_id)
 
 
+@login_required
 def unassoc_toy(request, cat_id, toy_id):
     # You can pass a toy's id instead of the whole toy object
     Cat.objects.get(id=cat_id).toys.remove(toy_id)
     return redirect('detail', cat_id=cat_id)
 
 
+@login_required
 def add_photo(request, cat_id):
     # photo-file will be the "name" attribute on the <input type="file">
     photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
         # need a unique "key" for S3 / needs image file extension too
-        key = uuid.uuid4().hex[:6] + photo_file.name[photo_file.name.rfind('.'):]
+        key = uuid.uuid4().hex[:6] + \
+            photo_file.name[photo_file.name.rfind('.'):]
         # just in case something goes wrong
         try:
             bucket = os.environ['S3_BUCKET']
@@ -128,3 +148,23 @@ def add_photo(request, cat_id):
             print('An error occurred uploading file to S3')
             print(e)
     return redirect('detail', cat_id=cat_id)
+
+
+def signup(request):
+    error_message = ''
+    if request.method == 'POST':
+        # This is how to create a 'user' form object
+        # that includes the data from the browser
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            # This will add the user to the database
+            user = form.save()
+            # This is how we log a user in via code
+            login(request, user)
+            return redirect('index')
+        else:
+            error_message = 'Invalid sign up - try again'
+    # A bad POST or a GET request, so render signup.html with an empty form
+    form = UserCreationForm()
+    context = {'form': form, 'error_message': error_message}
+    return render(request, 'registration/signup.html', context)

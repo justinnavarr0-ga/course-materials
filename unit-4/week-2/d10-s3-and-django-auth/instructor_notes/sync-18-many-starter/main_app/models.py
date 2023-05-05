@@ -2,6 +2,9 @@ from django.db import models
 from django.urls import reverse
 from datetime import date
 
+# Importing the User
+from django.contrib.auth.models import User
+
 MEALS = (
     ('B', 'Breakfast'),
     ('L', 'Lunch'),
@@ -29,6 +32,7 @@ class Cat(models.Model):
     # Add the Many to Many Relationship
     # related manager named toys
     toys = models.ManyToManyField(Toy)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     # Changing this instance method
     # does not impact the database, therefore
