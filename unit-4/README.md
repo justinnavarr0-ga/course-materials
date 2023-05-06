@@ -19,7 +19,11 @@
 | Homework | [*Finch Collector Lab Part 1*](https://git.generalassemb.ly/SEIR-2-21-23/Finch-Collector-HW-31-32-33-34/blob/main/README.md) | [*Finch Collector Lab Part 2*](https://git.generalassemb.ly/SEIR-2-21-23/Finch-Collector-HW-31-32-33-34/blob/main/README.md#finch-collector-lab---part-2) | [*Finch Collector Lab Part 3*](https://git.generalassemb.ly/SEIR-2-21-23/Finch-Collector-HW-31-32-33-34#finch-collector-lab---part-3)<br>---<br>[*Finch Collector Lab Part 4*](https://git.generalassemb.ly/SEIR-2-21-23/Finch-Collector-HW-31-32-33-34#finch-collector-lab---part-4) | [*Finch Collector Lab Part 5*](https://git.generalassemb.ly/SEIR-2-21-23/Finch-Collector-HW-31-32-33-34/blob/main/README.md#finch-collector-lab---part-5)<br>---<br>[*Project 4 Proposals*](https://docs.google.com/spreadsheets/d/1CCaqxs85BQsypf8DXynVMDUEHUS5Z_G_zwnagzeojso/edit#gid=2053949117) | [*Project 4*](/projects/project-4) |
 | Zoom Recordings | [5/1/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/ATnmdTTIRTRF8asyBfRqGjmOHiL6IEVH7D8ic5hIp9IKHfPEnzVCenOfpvHuCkB4.IjSROGovAD-m4ttQ) | [5/2/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/LY1OolGnP2x63fbs00haKDTw7WC_7sBIqXgS3cj98_1o5HgOqwoPtkt3rVZHmluT.2YtKNjHcD87JdDcr) | [5/3/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/KOz8nE_UZrVAcwsAqA0jiiXj55fXuTv2gxVRq3RHmbQ6DyITSDsO3le5lf4wJiPZ.ZJ5VondiODOIH1Ds) | [5/4/23 Zoom Recording](https://generalassembly.zoom.us/rec/share/jcEMqTr1Jpz8DAxHWRzpTB-uA0dcmEFAzv16-IKvejAmhO-H41ylOZ7yLnm1PRSl.RYuOynTCwCfNh6_x) |  |
 
+----
 
+### Week 3 - [*Project 4*](/projects/project-4)
+
+----
 
 ### Unit 4 Syllabus
 
