@@ -116,7 +116,7 @@ AND
 
 ☐ If consuming an API (OPTIONAL), have at least **one data entity** (Model) in addition to a User model. The related entity can be either a **one-to-many (1:M) or a many-to-many (M:M)** relationship.
 
-☐ If not consuming an API, have at least **two data entities** (Models) in addition to a User model. It is preferable to have at least **one one-to-many (1:M) and one many-to-many (M:M)** relationship between entities/models.  
+☐ If not consuming an API, have at least **two data entities** (Models) in addition to a User model. It is preferable to have at least **one one-to-many (1:M) **OR one many-to-many (M:M)** relationship between entities/models.  
 
 ## Self-sufficiency / Project Assistance
 
