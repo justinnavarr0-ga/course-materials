@@ -23,6 +23,8 @@
 
 ### Week 3 - [*Project 4*](/projects/project-4)
 
+[Django Deployment](/unit-4/week-2/Django%20Deployment.md)
+
 ----
 
 ### Unit 4 Syllabus
