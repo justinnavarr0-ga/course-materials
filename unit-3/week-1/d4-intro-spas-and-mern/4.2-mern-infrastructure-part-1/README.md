@@ -104,7 +104,6 @@ Here's the Plan:
 1. Send the token with AJAX requests
 2. Check the token on the server and add a `user` property to `req`
 3. Implement middleware to protect server-side routes
-4. Save MERN-Stack infrastructure to a new GH repo
 
 Then, once all of the above infrastructure is in place, we'll save it to a separate GitHub repo for the purpose of being able to start new MERN-Stack projects by simply cloning it at anytime in the future!
 

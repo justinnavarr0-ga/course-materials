@@ -27,6 +27,8 @@
 
 Lesson: [Bootstrap Lesson](/unit-2/week-3/BOOTSTRAP.md) | [Bootstrap Recording](https://generalassembly.zoom.us/rec/play/vADvECdfdkRDzxcibVPPUpy_bWNaAoorBmoODB4_XzG4Yg_7bGzEKOWtweThq5tiNd3lf68dL-ZFvpjV.u0xdYL7yppuYveyh?continueMode=true)
 
+[Project 2 Presentations](https://generalassembly.zoom.us/rec/play/H4RgL0ea6xCZZjTBCg0zul6452mcoFOK6C70WxMrZOByiTeFpwEB7YCYliEjav7cv0XvTB7Rjvzt3U0U.uxZR_0CoPODe9OCj?autoplay=true&startTime=1680282143000)
+
 ----
 
 ### Unit 2 Syllabus

@@ -1,0 +1,152 @@
+Lifecycle of a React Component:
+
+Three stages 
+
+Mounting (component is first rendered)
+Updating (component is updated)
+Unmounting (Component is no longer shown)
+
+
+Understanding the stages
+
+
+Mounting:
+    -The first time the component is rendered and shown
+    -Run once for every time the component is rendered 
+    onto the page
+
+
+Updating:
+    -If a prop that comes into the component changes 
+    -it will cause the component to re-render
+    -If the component has a state variable that is updated
+    -the component will re-render and update
+
+
+Unmounting:
+    -When you no longer want to show a component
+    -When the component is hidden
+    -When you navigate to a different page where the 
+    -component is no longer shown 
+
+Imagine we have a button that hides and shows
+a component, mounting happens every time we click the
+button to show the component, unmounting happens
+when we hide the component 
+
+Imagine we have a button to increment some state
+every time the button is clicked the component is
+updated and re-rendered 
+
+Each instance of a component has its own lifecycle that it
+goes through 
+
+In class based components, when we used them, we had specific methods
+to account for each stage of the life cycle:
+
+componentDidMount, componentDidUpdate and componentWilUnmount 
+
+With functional components we don't have access to these methods, 
+in their place we have another hook, the most widely used after useState called 
+useEffect 
+
+
+useEffect:
+
+useEffect is a hook in React that lets you perform side effects in 
+function components. Side effects include things like fetching data from an API, 
+setting up event listeners, or updating the document title. 
+UseEffect runs after every render of the component, unless otherwise,
+specified and can optionally be set up to run only when certain state or 
+props change.
+
+Here's the basic syntax for useEffect:
+
+import { useEffect } from 'react';
+
+function MyComponent(props) {
+  
+  useEffect(() => {
+    // side effect code here
+  }, [/* array of dependencies */]);
+
+  // rest of the component code here
+}
+
+The first argument to useEffect is a function that contains the side effect code. 
+The second argument is an array of dependencies, which tells React when to run 
+the effect. If the array is empty, the effect runs only once when the component 
+first mounts. If the array contains one or more values, the effect runs whenever 
+one of those values, or dependencies changes.  We can have multiple values in our
+dependency array.  We can also have multiple use effects. 
+
+useEffect a function that you pass another function into to run 
+at specific stages of a components life-cycle 
+
+Let's look at an example in Counter.jsx 
+
+We'll setup three situations for use effect:
+
+    -component did mount
+    -component did update
+    -component did unmount 
+
+Let's look at a practical example in my final project, using an aysnc api request 
+
+https://geppettoapp.herokuapp.com/home
+
+When we click on the link for prototypes and the Prototypes functional component
+mounts, we make an api call to retrieve all of the puppets the use has 
+created from the db 
+
+This is an async function within a function in order to prevent something 
+called race conditions.  Basically if we have multiple use effects, they 
+should all be called synchronously, not asynchronously. 
+
+
+
+useRef: 
+
+The main use case of useRef is to store references to DOM elements without 
+causing a re-render of the entire page.  This is because manipulating an element directly 
+using getElementById causes a re-render of the entire page.
+
+useRef returns a mutable object whose '.current' property is initialized 
+to the passed argument (initial value).
+
+This object persists for the full lifetime of the component and can be 
+directly mutated.
+
+useRef does not trigger a re-render. 
+
+It can be used for non-state data as well.  
+
+Understand two things about useRef: 
+
+First, it returns an object with a .current property that can be directly 
+mutated unlike useState in which we must use a special setter function
+
+Two, it never re-renders the Dom element aka component 
+
+You can use use-ref to persist data as well, which is the way we'll be using it. 
+
+When used to manipulate non-state data, UseEffect is considered an "escape hatch" 
+from the way React likes to do things with state.  Sometimes we have data that 
+we need to persist across re-renders, but for which we don't need state, 
+because the data doesn't need cause a re-render.  
+
+Let's look at an example in the ColorClick.jsx component. 
+
+For a more practical real-world use case let's look at TimerTwo.jsx. 
+
+We'll also see an example of this in Jim's video lesson.
+
+We should be careful of these using useRef for this kind of useCase, 
+because more often we will always store data as state.  
+If you think you need a useRef, make sure you have exhausted all 
+possibilities of how your app can be designed with state instead.  
+
+In Jim's lesson we don't see the first use case for useRef, so make 
+sure to look into using use ref to directly refer to the dom elements 
+on your own. 
+

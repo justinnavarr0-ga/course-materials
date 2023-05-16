@@ -9,8 +9,6 @@
 | Send the JWT to the Server in AJAX Requests |
 | Validate the JWT and Add the Payload to `req.user` |
 | Protect Server-Side Routes that Require A Logged In User |
-| Save MERN-Stack Infrastructure To a New GitHub Repo |
-| Create a new MERN-Stack Project from the `mern-infrastructure` Repo |
 
 ## Road Map
 
@@ -25,8 +23,6 @@ In Part 7 we will will wrap up the basic infrastructure for a MERN-Stack app.
   1. Send the token with AJAX requests
   2. Check the token on the server and add a `user` property to `req`
   3. Implement middleware to protect server-side routes
-  4. Save MERN-Stack infrastructure to a new GH repo
-  5. Using `mern-infrastructure` to Create MERN-Stack Projects in the Future
 
 ## 1. Send the Token with AJAX Requests
 
@@ -364,100 +360,3 @@ router.get('/check-token', ensureLoggedIn, usersCtrl.checkToken);
 ```
 
 **Congrats - that wraps up the infrastructure code for a MERN-Stack app!**
-
-## 4. Save MERN-Stack Infrastructure To a New GitHub Repo
-
-You'll definitely want to use the infrastructure we've coded over the last few days to launch your capstone project and likely future MERN-Stack projects as well.
-
-First, let's update the **README.md** to something like:
-
-```
-# MERN-Stack Infrastructure
-
-Clone this repo to provide the starter code for a comprehensive MERN-Stack project including token-based authentication.
-```
-
-### Reset the Commit History
-
-**If you have not synced your code at any time during the 7 parts, you won't have any commits made by me and can thus skip this section.**
-
-So that you don't have commits made by your me, let's **reset** the local repo:
-
-```
-rm -rf .git
-git init
-```
-
-Next, commit your code as it stands:
-
-```
-git add -A
-git commit -m "MERN-Stack Infrastructure"
-```
-
-### Create a GitHub Repo for `mern-infrastructure`
-
-Next, go to your **personal** GitHub account and create a new repo named whatever you wish.
-
-FYI, I'm going to name mine **mern-infrastructure**:
-
-<img src="https://i.imgur.com/Ue3cPST.png">
-
-Now click to copy the new repo's URL:
-
-<img src="https://i.imgur.com/4KzM8o4.png">
-
-Now let's add a remote that points to the new repo...
-
-### Add the Remote:
-
-We'll need to add a remote so that we can push to the new GH repo in the cloud.
-
-If you **reset** the local repo, run:
-
-```
-git remote add origin <paste the copied url>
-```
-
-Otherwise, if you didn't reset the repo because you didn't sync, run the following to change where `origin` points to:
-
-```
-git remote set-url origin <paste the copied url>
-```
-
-Now you can push the code:
-
-```
-git push -u origin main
-```
-
-Congrats - refreshing the repo should confirm that the repo is ready for cloning as needed!
-
-## 5. Using `mern-infrastructure` to Create MERN-Stack Projects in the Future
-
-Here's the process to create a new MERN-Stack project that starts with the infrastructure code:
-
-1. Clone the **mern-infrastructure** repo: `git clone <url of mern-infrastructure> <name-of-project>`
-    > Note that the folder created will be same as `<name-of-project>` instead of mern-infrastructure
-
-2. `cd <name-of-project>`
-
-3. Install the Node modules:  `npm i`
-
-4. Create a .env (`touch .env`) and add entries for `DATABASE_URL` and `SECRET`
-
-5. Update the `"name": "mern-infrastructure"` in **package.json** to the name of your project.
-
-6. Create a new repo on your personal GH account.
-
-7. Copy the new GH repo's URL.
-
-8. Update the remote's URL: `git remote set-url origin <paste the copied GH url>`
-
-9. Make the initial commit:  `git add -A && git commit -m "Initial commit"`
-
-10. Push for the first time:  `git push -u origin main`
-
-11. Have fun coding your new project and don't forget to make frequent commits!
-
-#### Congrats!
